@@ -27,11 +27,10 @@ class WebDriverManager:
 
     def setup_driver(self):
         try:
-            # Criando uma instância do serviço do navegador Edge
             edge_service = EdgeService(self.driver_path)
-            
             edge_options = EdgeOptions()
             
+            edge_options.add_argument('--headless')
             edge_options.add_argument('--disable-gpu')
             edge_options.add_argument('--no-sandbox')
             edge_options.add_argument('--disable-dev-shm-usage')
