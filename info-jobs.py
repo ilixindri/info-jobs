@@ -29,6 +29,7 @@ class WebDriverManager:
         try:
             edge_service = EdgeService(self.driver_path)
             edge_options = EdgeOptions()
+            edge_options.use_chromium = True
             edge_options.add_argument('--headless')
             edge_options.add_argument('--disable-gpu')
             edge_options.add_argument('--no-sandbox')
