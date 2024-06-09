@@ -36,6 +36,7 @@ class WebDriverManager:
             edge_options.add_argument('--no-sandbox')
             edge_options.add_argument('--disable-dev-shm-usage')
             edge_options.add_argument('--remote-debugging-port=9222')
+            edge_options.binary_location = "/usr/bin/microsoft-edge-dev"
             
             # Criando uma instância do driver do navegador Edge com o serviço especificado
             self.driver = webdriver.Edge(service=edge_service, options=edge_options)
