@@ -58,7 +58,7 @@ class InfoJobsLogin:
         try:
             logging.info("Iniciando login.")
             self.driver_manager.driver.get("https://login.infojobs.com.br/Account/Login")
-            WebDriverWait(self.driver_manager.driver, 10).until(EC.presence_of_element_located((By.ID, "Email")))
+            #WebDriverWait(self.driver_manager.driver, 10).until(EC.presence_of_element_located((By.ID, "Email")))
 
             logging.info("Cookies")
             # Clicando no botão "Saiba mais"
