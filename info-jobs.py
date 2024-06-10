@@ -46,20 +46,27 @@ class WebDriverManager:
             logging.error(f"Erro ao configurar o driver: {e}")
             raise
         
-    def cookies(self):
-        logging.info("Cookies")
-        # Clicando no botão "Saiba mais"
-        saiba_mais_button = self.driver.find_element(By.ID, "didomi-notice-learn-more-button")
-        saiba_mais_button.click()
-        
-        # Clicando no botão "Não aceito nenhum"
-        nao_aceito_button = self.driver.find_element(By.CSS_SELECTOR, "button.didomi-button-standard")
-        nao_aceito_button.click()    
-
     def quit_driver(self):
         if self.driver:
             self.driver.quit()
             logging.info("Driver finalizado.")
+
+class InfoJobs:
+    def __init__(self, driver_manager):
+        self.driver_manager = driver_manager
+    
+    def cookies(self):
+        self.driver_manager.drive.get('infojobs.com.br')
+        logging.info("Cookies")
+        # Clicando no botão "Saiba mais"
+        saiba_mais_button = self.driver.find_element(By.ID, "didomi-notice-learn-more-button")
+        saiba_mais_button.click()
+        time.sleep(2)
+        
+        # Clicando no botão "Não aceito nenhum"
+        nao_aceito_button = self.driver.find_element(By.CSS_SELECTOR, "button.didomi-button-standard")
+        nao_aceito_button.click()
+        time.sleep(2)
 
 class InfoJobsLogin:
     def __init__(self, email, password, driver_manager):
@@ -181,7 +188,9 @@ if __name__ == "__main__":
 
     driver_manager = WebDriverManager(args.driver_path)
     driver_manager.setup_driver(args.binary_location)
-    driver_manager.cookies()
+
+    home_instance = InfoJobs(driver_manager)
+    home_instance.cookies()
 
     login_instance = InfoJobsLogin(args.email, args.password, driver_manager)
     login_instance.login()
