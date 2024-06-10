@@ -57,7 +57,7 @@ class InfoJobs:
     
     def cookies(self):
         logging.info("Cookies")
-        self.driver_manager.driver.get('https://infojobs.com.br')
+        self.driver_manager.driver.get('https://www.infojobs.com.br/')
         time.sleep(10)
 
         # Clicando no botão "Saiba mais"
