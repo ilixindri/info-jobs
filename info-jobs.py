@@ -49,7 +49,7 @@ class WebDriverManager:
     def cookies(self):
         logging.info("Cookies")
         # Clicando no botão "Saiba mais"
-        saiba_mais_button = WebDriverWait(self.driver, 10).until(EC.element_to_be_clickable((By.ID, "didomi-notice-learn-more-button")))
+        saiba_mais_button = WebDriverWait(self.driver, 300).until(EC.element_to_be_clickable((By.ID, "didomi-notice-learn-more-button")))
         saiba_mais_button.click()
         
         # Clicando no botão "Não aceito nenhum"
