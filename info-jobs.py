@@ -49,11 +49,11 @@ class WebDriverManager:
     def cookies(self):
         logging.info("Cookies")
         # Clicando no botão "Saiba mais"
-        saiba_mais_button = WebDriverWait(self.driver, 300).until(EC.element_to_be_clickable((By.ID, "didomi-notice-learn-more-button")))
+        saiba_mais_button = self.driver.find_element(By.ID, "didomi-notice-learn-more-button")
         saiba_mais_button.click()
         
         # Clicando no botão "Não aceito nenhum"
-        nao_aceito_button = WebDriverWait(self.driver, 10).until(EC.element_to_be_clickable((By.CSS_SELECTOR, "button.didomi-button-standard")))
+        nao_aceito_button = self.driver.find_element(By.CSS_SELECTOR, "button.didomi-button-standard")
         nao_aceito_button.click()    
 
     def quit_driver(self):
@@ -71,19 +71,22 @@ class InfoJobsLogin:
         try:
             logging.info("Iniciando login.")
             self.driver_manager.driver.get("https://login.infojobs.com.br/Account/Login")
-            #WebDriverWait(self.driver_manager.driver, 10).until(EC.presence_of_element_located((By.ID, "Email")))
+            self.driver_manager.driver.find_element(By.ID, "Email")
+            time.sleep(10)
 
             logging.info("Inserindo e-mail.")
-            email_input = WebDriverWait(self.driver_manager.driver, 10).until(EC.presence_of_element_located((By.ID, "Email")))
+            email_input = self.driver_manager.driver.find_element(By.ID, "Email")
             email_input.send_keys(self.email)
             email_input.send_keys(Keys.ENTER)
+            time.sleep(10)
             
             logging.info("Inserindo senha.")
-            password_input = WebDriverWait(self.driver_manager.driver, 10).until(EC.presence_of_element_located((By.ID, "Password")))
+            password_input = self.driver_manager.driver.find_element(By.ID, "Password")
             password_input.send_keys(self.password)
             password_input.send_keys(Keys.ENTER)
+            time.sleep(10)
             
-            WebDriverWait(self.driver_manager.driver, 10).until(EC.presence_of_element_located((By.CSS_SELECTOR, "div.logged-in-element")))
+            self.driver_manager.driver.find_element(By.CSS_SELECTOR, "div.logged-in-element")
             logging.info("Login realizado com sucesso.")
         except Exception as e:
             logging.error(f"Erro durante o login: {e}")
@@ -96,8 +99,6 @@ class InfoJobsScraper:
     def click_all_cards(self):
         try:
             logging.info("Iniciando click em todos os cards.")
-            # Navegar até a página inicial
-            self.driver_manager.driver.get("https://www.infojobs.com.br/empregos-em-sao-paulo.aspx")
             
             # Obter o número total de páginas
             total_pages = self.get_total_pages()
@@ -118,22 +119,23 @@ class InfoJobsScraper:
             raise
 
     def get_total_pages(self):
-        jobs_element = WebDriverWait(self.driver_manager.driver, 10).until(EC.presence_of_element_located((By.CSS_SELECTOR, "span.small.text-medium")))
+        jobs_element = self.driver_manager.driver.find_element(By.CSS_SELECTOR, "span.small.text-medium")
         total_jobs_text = jobs_element.text.strip().split()[0]
         total_jobs = float(total_jobs_text)
-        cards_per_page = len(WebDriverWait(self.driver_manager.driver, 10).until(EC.presence_of_all_elements_located((By.CSS_SELECTOR, "div.card.card-shadow.card-shadow-hover.text-break.mb-16.grid-row.js_rowCard.active"))))
+        cards_per_page = len(self.driver_manager.driver.find_elements(By.CSS_SELECTOR, "div.card.card-shadow.card-shadow-hover.text-break.mb-16.grid-row.js_rowCard.active"))
         total_pages = ceil(total_jobs / cards_per_page)
         return total_pages
 
     def navigate_to_page(self, page_number):
         url = f"https://www.infojobs.com.br/empregos-em-sao-paulo.aspx?page={page_number}&campo=griddate&orden=desc"
         self.driver_manager.driver.get(url)
-        WebDriverWait(self.driver_manager.driver, 10).until(EC.presence_of_element_located((By.ID, "filterSideBar")))
+        time.sleep(10)
+        self.driver_manager.driver.find_element(By.ID, "filterSideBar")
 
     def click_all_cards_on_page(self):
         logging.info("Iniciando click em todos os cards da página.")
         try:
-            card_divs = WebDriverWait(self.driver_manager.driver, 10).until(EC.presence_of_all_elements_located((By.CSS_SELECTOR, "div.card.card-shadow.card-shadow-hover.text-break.mb-16.grid-row.js_rowCard")))
+            card_divs = self.driver_manager.driver.find_elements(By.CSS_SELECTOR, "div.card.card-shadow.card-shadow-hover.text-break.mb-16.grid-row.js_rowCard")
         except NoSuchElementException:
             logging.error("Nenhum card encontrado.")
             return
@@ -155,7 +157,7 @@ class InfoJobsScraper:
             time.sleep(2)
 
             try:
-                apply_button = WebDriverWait(self.driver_manager.driver, 10).until(EC.element_to_be_clickable((By.CSS_SELECTOR, "a.btn.btn-primary.btn-block.js_buttonloading.js_btApplyVacancy")))
+                apply_button = self.driver_manager.driver.find_element(By.CSS_SELECTOR, "a.btn.btn-primary.btn-block.js_buttonloading.js_btApplyVacancy")
                 apply_button.click()
                 logging.info("Botão de aplicar clicado com sucesso.")
                 time.sleep(2)
