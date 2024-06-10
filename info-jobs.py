@@ -25,7 +25,7 @@ class WebDriverManager:
         self.driver_path = driver_path
         self.driver = None
 
-    def setup_driver(self):
+    def setup_driver(self, binary_location=None):
         try:
             edge_service = EdgeService(self.driver_path)
             edge_options = EdgeOptions()
@@ -35,7 +35,9 @@ class WebDriverManager:
             edge_options.add_argument('--no-sandbox')
             edge_options.add_argument('--disable-dev-shm-usage')
             edge_options.add_argument('--remote-debugging-port=9222')
-            edge_options.binary_location = "/usr/bin/microsoft-edge-dev"
+
+            if binary_location:
+                edge_options.binary_location = '/usr/bin/microsoft-edge-dev'
             
             # Criando uma instância do driver do navegador Edge com o serviço especificado
             self.driver = webdriver.Edge(service=edge_service, options=edge_options)
@@ -43,7 +45,17 @@ class WebDriverManager:
         except Exception as e:
             logging.error(f"Erro ao configurar o driver: {e}")
             raise
-
+        
+    def cookies(self):
+        logging.info("Cookies")
+        # Clicando no botão "Saiba mais"
+        saiba_mais_button = WebDriverWait(self.driver_manager.driver, 10).until(EC.element_to_be_clickable((By.ID, "didomi-notice-learn-more-button")))
+        saiba_mais_button.click()
+        
+        # Clicando no botão "Não aceito nenhum"
+        nao_aceito_button = WebDriverWait(self.driver_manager.driver, 10).until(EC.element_to_be_clickable((By.CSS_SELECTOR, "button.didomi-button-standard")))
+        nao_aceito_button.click()    
+           
     def quit_driver(self):
         if self.driver:
             self.driver.quit()
@@ -61,15 +73,6 @@ class InfoJobsLogin:
             self.driver_manager.driver.get("https://login.infojobs.com.br/Account/Login")
             #WebDriverWait(self.driver_manager.driver, 10).until(EC.presence_of_element_located((By.ID, "Email")))
 
-            logging.info("Cookies")
-            # Clicando no botão "Saiba mais"
-            saiba_mais_button = WebDriverWait(self.driver_manager.driver, 10).until(EC.element_to_be_clickable((By.ID, "didomi-notice-learn-more-button")))
-            saiba_mais_button.click()
-            
-            # Clicando no botão "Não aceito nenhum"
-            nao_aceito_button = WebDriverWait(self.driver_manager.driver, 10).until(EC.element_to_be_clickable((By.CSS_SELECTOR, "button.didomi-button-standard")))
-            nao_aceito_button.click()
-            
             logging.info("Inserindo e-mail.")
             email_input = WebDriverWait(self.driver_manager.driver, 10).until(EC.presence_of_element_located((By.ID, "Email")))
             email_input.send_keys(self.email)
@@ -171,10 +174,12 @@ if __name__ == "__main__":
     parser.add_argument("-d", "--driver_path", required=True, help="Caminho para o executável do WebDriver")
     parser.add_argument("-e", "--email", required=True, help="Endereço de e-mail para login")
     parser.add_argument("-p", "--password", required=True, help="Senha para login")
+    parser.add_argument("-b", "--binary_location", help="Caminho para o binário do navegador")
     args = parser.parse_args()
 
     driver_manager = WebDriverManager(args.driver_path)
-    driver_manager.setup_driver()
+    driver_manager.setup_driver(args.binary_location)
+    driver_manager.cookies()
 
     login_instance = InfoJobsLogin(args.email, args.password, driver_manager)
     login_instance.login()
