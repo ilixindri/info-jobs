@@ -61,12 +61,12 @@ class InfoJobs:
         time.sleep(10)
 
         # Clicando no botão "Saiba mais"
-        saiba_mais_button = self.driver.find_element(By.ID, "didomi-notice-learn-more-button")
+        saiba_mais_button = self.driver_manager.driver.find_element(By.ID, "didomi-notice-learn-more-button")
         saiba_mais_button.click()
         time.sleep(2)
         
         # Clicando no botão "Não aceito nenhum"
-        nao_aceito_button = self.driver.find_element(By.CSS_SELECTOR, "button.didomi-button-standard")
+        nao_aceito_button = self.driver_manager.driver.find_element(By.CSS_SELECTOR, "button.didomi-button-standard")
         nao_aceito_button.click()
         time.sleep(2)
 
