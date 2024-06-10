@@ -56,7 +56,7 @@ class InfoJobs:
         self.driver_manager = driver_manager
     
     def cookies(self):
-        self.driver_manager.drive.get('infojobs.com.br')
+        self.driver_manager.driver.get('infojobs.com.br')
         logging.info("Cookies")
         # Clicando no botão "Saiba mais"
         saiba_mais_button = self.driver.find_element(By.ID, "didomi-notice-learn-more-button")
