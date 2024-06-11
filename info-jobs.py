@@ -8,8 +8,7 @@ from selenium.webdriver.edge.service import Service as EdgeService
 from selenium.webdriver.edge.options import Options as EdgeOptions
 from selenium.webdriver.support.ui import WebDriverWait
 from selenium.webdriver.support import expected_conditions as EC
-from selenium.common.exceptions import NoSuchElementException, ElementClickInterceptedException, ElementNotInteractableException
-import time
+from selenium.common.exceptions import NoSuchElementException, ElementClickInterceptedException, ElementNotInteractableException, TimeoutException
 from math import ceil
 
 # Configuração do módulo de logging
@@ -30,7 +29,9 @@ class WebDriverManager:
             edge_service = EdgeService(self.driver_path)
             edge_options = EdgeOptions()
             edge_options.use_chromium = True
-            edge_options.add_argument('--headless')
+            # no headless não tem como fazer get ou clicar nos elementos
+            # tanto como os métodos do Selenium tantos como script
+            # edge_options.add_argument('--headless')
             edge_options.add_argument('--disable-gpu')
             edge_options.add_argument('--no-sandbox')
             edge_options.add_argument('--disable-dev-shm-usage')
@@ -58,17 +59,18 @@ class InfoJobs:
     def cookies(self):
         logging.info("Cookies")
         self.driver_manager.driver.get('https://www.infojobs.com.br/')
-        time.sleep(10)
-
+        
         # Clicando no botão "Saiba mais"
-        saiba_mais_button = self.driver_manager.driver.find_element(By.ID, "didomi-notice-learn-more-button")
+        saiba_mais_button = WebDriverWait(self.driver_manager.driver, 10).until(
+            EC.element_to_be_clickable((By.ID, "didomi-notice-learn-more-button"))
+        )
         saiba_mais_button.click()
-        time.sleep(2)
         
         # Clicando no botão "Não aceito nenhum"
-        nao_aceito_button = self.driver_manager.driver.find_element(By.CSS_SELECTOR, "button.didomi-button-standard")
+        nao_aceito_button = WebDriverWait(self.driver_manager.driver, 10).until(
+            EC.element_to_be_clickable((By.CSS_SELECTOR, "button.didomi-button-standard"))
+        )
         nao_aceito_button.click()
-        time.sleep(2)
 
 class InfoJobsLogin:
     def __init__(self, email, password, driver_manager):
@@ -80,22 +82,24 @@ class InfoJobsLogin:
         try:
             logging.info("Iniciando login.")
             self.driver_manager.driver.get("https://login.infojobs.com.br/Account/Login")
-            self.driver_manager.driver.find_element(By.ID, "Email")
-            time.sleep(10)
-
+            
             logging.info("Inserindo e-mail.")
-            email_input = self.driver_manager.driver.find_element(By.ID, "Email")
+            email_input = WebDriverWait(self.driver_manager.driver, 10).until(
+                EC.presence_of_element_located((By.ID, "Email"))
+            )
             email_input.send_keys(self.email)
             email_input.send_keys(Keys.ENTER)
-            time.sleep(10)
             
             logging.info("Inserindo senha.")
-            password_input = self.driver_manager.driver.find_element(By.ID, "Password")
+            password_input = WebDriverWait(self.driver_manager.driver, 10).until(
+                EC.presence_of_element_located((By.ID, "Password"))
+            )
             password_input.send_keys(self.password)
             password_input.send_keys(Keys.ENTER)
-            time.sleep(10)
             
-            self.driver_manager.driver.find_element(By.CSS_SELECTOR, "div.logged-in-element")
+            WebDriverWait(self.driver_manager.driver, 10).until(
+                EC.presence_of_element_located((By.CSS_SELECTOR, "div.logged-in-element"))
+            )
             logging.info("Login realizado com sucesso.")
         except Exception as e:
             logging.error(f"Erro durante o login: {e}")
@@ -128,48 +132,63 @@ class InfoJobsScraper:
             raise
 
     def get_total_pages(self):
-        jobs_element = self.driver_manager.driver.find_element(By.CSS_SELECTOR, "span.small.text-medium")
+        jobs_element = WebDriverWait(self.driver_manager.driver, 10).until(
+            EC.presence_of_element_located((By.CSS_SELECTOR, "span.small.text-medium"))
+        )
         total_jobs_text = jobs_element.text.strip().split()[0]
         total_jobs = float(total_jobs_text)
-        cards_per_page = len(self.driver_manager.driver.find_elements(By.CSS_SELECTOR, "div.card.card-shadow.card-shadow-hover.text-break.mb-16.grid-row.js_rowCard.active"))
+        cards_per_page = len(WebDriverWait(self.driver_manager.driver, 10).until(
+            EC.presence_of_all_elements_located((By.CSS_SELECTOR, "div.card.card-shadow.card-shadow-hover.text-break.mb-16.grid-row.js_rowCard.active"))
+        ))
         total_pages = ceil(total_jobs / cards_per_page)
         return total_pages
 
     def navigate_to_page(self, page_number):
         url = f"https://www.infojobs.com.br/empregos-em-sao-paulo.aspx?page={page_number}&campo=griddate&orden=desc"
         self.driver_manager.driver.get(url)
-        time.sleep(10)
-        self.driver_manager.driver.find_element(By.ID, "filterSideBar")
+        WebDriverWait(self.driver_manager.driver, 10).until(
+            EC.presence_of_element_located((By.ID, "filterSideBar"))
+        )
 
     def click_all_cards_on_page(self):
         logging.info("Iniciando click em todos os cards da página.")
         try:
-            card_divs = self.driver_manager.driver.find_elements(By.CSS_SELECTOR, "div.card.card-shadow.card-shadow-hover.text-break.mb-16.grid-row.js_rowCard")
+            card_divs = WebDriverWait(self.driver_manager.driver, 10).until(
+                EC.presence_of_all_elements_located((By.CSS_SELECTOR, "div.card.card-shadow.card-shadow-hover.text-break.mb-16.grid-row.js_rowCard"))
+            )
         except NoSuchElementException:
             logging.error("Nenhum card encontrado.")
             return
 
         for index, card_div in enumerate(card_divs, start=1):
             try:
-                modal = self.driver_manager.driver.find_element(By.CSS_SELECTOR, "div.modal-content")
-                if modal:
-                    discard_button = modal.find_element(By.ID, "btnSharedLooseChangesModalDiscardForm")
-                    discard_button.click()
-                    time.sleep(2)
-            except NoSuchElementException:
+                # Espera que o modal esteja presente e clicável
+                modal = WebDriverWait(self.driver_manager.driver, 3).until(
+                    EC.presence_of_element_located((By.CSS_SELECTOR, "div.modal-content"))
+                )
+                discard_button = WebDriverWait(modal, 3).until(
+                    EC.element_to_be_clickable((By.ID, "btnSharedLooseChangesModalDiscardForm"))
+                )
+                discard_button.click()
+            except (NoSuchElementException, TimeoutException):
                 pass
 
-            card_link = card_div.find_element(By.CSS_SELECTOR, "a.text-decoration-none")
-            card_name = card_link.find_element(By.CSS_SELECTOR, "h2").text.strip()
+            card_link = WebDriverWait(card_div, 10).until(
+                EC.element_to_be_clickable((By.CSS_SELECTOR, "a.text-decoration-none"))
+            )
+            card_name = WebDriverWait(card_link, 10).until(
+                EC.presence_of_element_located((By.CSS_SELECTOR, "h2"))
+            ).text.strip()
+
             logging.info(f"Clicando no card {index} '{card_name}' de {len(card_divs)}")
             card_div.click()
-            time.sleep(2)
 
             try:
-                apply_button = self.driver_manager.driver.find_element(By.CSS_SELECTOR, "a.btn.btn-primary.btn-block.js_buttonloading.js_btApplyVacancy")
+                apply_button = WebDriverWait(self.driver_manager.driver, 10).until(
+                    EC.element_to_be_clickable((By.CSS_SELECTOR, "a.btn.btn-primary.btn-block.js_buttonloading.js_btApplyVacancy"))
+                )
                 apply_button.click()
                 logging.info("Botão de aplicar clicado com sucesso.")
-                time.sleep(2)
             except NoSuchElementException:
                 logging.error("Botão de aplicar não encontrado.")
             except ElementClickInterceptedException:
@@ -177,8 +196,7 @@ class InfoJobsScraper:
             except ElementNotInteractableException:
                 logging.error("Não foi possível clicar no botão de aplicar. Isso pode ocorrer se o botão estiver oculto, desabilitado ou fora da área visível da página.")
 
-            self.driver_manager.driver.execute_script("window.scrollBy(0, 200);")
-            time.sleep(1)
+            self.driver_manager.driver.execute_async_script("window.scrollBy(0, 200); var callback = arguments[arguments.length - 1]; callback();")
 
 if __name__ == "__main__":
     parser = argparse.ArgumentParser(description="Script de login no InfoJobs")
