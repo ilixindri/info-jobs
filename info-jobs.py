@@ -398,7 +398,7 @@ def files_create():
     dir_name = os.path.dirname(__file__)
     file_names = ['actual', 'first', 'applied', 'first_exists', 'puladas']
     for file_name in file_names:
-        file_path = os.path.join(dir_name, f'{file_name}.txt')
+        file_path = os.path.join(dir_name, f'{file_name}')
         with open(file_path, 'w') as file:
             file.write(f'0')
     print("Arquivos criados com sucesso!")
