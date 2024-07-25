@@ -395,12 +395,12 @@ class InfoJobsScraper:
             return False
 
 def files_create():
+    dir_name = os.path.dirname(__file__)
     file_names = ['actual', 'first', 'applied', 'first_exists', 'puladas']
-
     for file_name in file_names:
-        with open(f'{file_name}', 'w') as file:
-            file.write('0')
-
+        file_path = os.path.join(dir_name, f'{file_name}.txt')
+        with open(file_path, 'w') as file:
+            file.write(f'0')
     print("Arquivos criados com sucesso!")
 
 
