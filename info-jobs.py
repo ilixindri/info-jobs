@@ -394,17 +394,7 @@ class InfoJobsScraper:
             logging.info(f'O elemento {value} não exite.')
             return False
 
-def files_create():
-    dir_name = os.path.dirname(__file__)
-    file_names = ['actual', 'first', 'applied', 'puladas']
-    for file_name in file_names:
-        file_path = os.path.join(dir_name, f'{file_name}')
-        with open(file_path, 'w') as file:
-            file.write(f'0')
-    print("Arquivos criados com sucesso!")
-
 def main(driver_path, binary_location, email, password, page_link):
-    files_create()
     driver_manager = WebDriverManager(driver_path)
     try:
         driver_manager.setup_driver(binary_location)
