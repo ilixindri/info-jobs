@@ -399,7 +399,7 @@ def files_create():
 
     for file_name in file_names:
         with open(f'{file_name}', 'w') as file:
-            file.write('')
+            file.write('0')
 
     print("Arquivos criados com sucesso!")
 
