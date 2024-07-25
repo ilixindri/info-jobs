@@ -1,0 +1,21 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "Python Debugger: Current File with Arguments",
+            "type": "debugpy",
+            "request": "launch",
+            "program": "C:\\Users\\user\\OneDrive\\sources\\infojobs job work\\infojobs\\info-jobs.py",
+            "console": "integratedTerminal",
+            "args": [
+                "--driver-path",
+                "C:\\Users\\user\\Downloads\\msedgedriver.exe",
+                "--email",
+                "alexandrogonsan@outlook.com",
+                "--password",
+                "agkVBF61Iz3tr0DDYPEj4LM0h-"
+            ],
+            "pythonPath": "C:\\Program Files\\Python312\\python.exe"
+        }
+    ]
+}
