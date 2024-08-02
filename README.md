@@ -7,8 +7,8 @@
  - [Git](https://git-scm.com/downloads)
 ## Comando Resumido
 ```bash
-git clone https://github.com/ilixindri/info-jobs
-cd info-jobs
+git clone https://github.com/ilixindri/infojobs.com.br
+cd infojobs.com.br
 pip install -r requirements.txt
 python info-jobs.py -h
 # complete os argumentos
