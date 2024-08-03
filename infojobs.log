@@ -18396,3 +18396,1717 @@ Stacktrace:
 2024-07-25 15:59:32,861 - INFO: Verificando se o elemento div.h3.mb-32 exite.
 2024-07-25 15:59:43,121 - INFO: O elemento div.h3.mb-32 não exite.
 2024-07-25 16:00:06,208 - INFO: Driver finalizado.
+2024-08-02 21:25:30,041 - INFO: Driver configurado com sucesso.
+2024-08-02 21:25:30,138 - INFO: Aceitando cookies...
+2024-08-02 21:25:55,007 - INFO: Realizando login...
+2024-08-02 21:26:03,637 - INFO: Login realizado com sucesso.
+2024-08-02 21:26:08,248 - INFO: Driver finalizado.
+2024-08-02 21:26:32,675 - INFO: Driver configurado com sucesso.
+2024-08-02 21:26:32,676 - INFO: Aceitando cookies...
+2024-08-02 21:26:56,061 - INFO: Realizando login...
+2024-08-02 21:27:09,189 - INFO: Login realizado com sucesso.
+2024-08-02 21:27:13,937 - INFO: Driver finalizado.
+2024-08-02 21:32:58,194 - INFO: Driver configurado com sucesso.
+2024-08-02 21:32:58,195 - INFO: Aceitando cookies...
+2024-08-02 21:33:18,638 - INFO: Realizando login...
+2024-08-02 21:33:33,377 - INFO: Login realizado com sucesso.
+2024-08-02 21:33:33,379 - INFO: Clicando em todos os cards...
+2024-08-02 21:33:33,416 - INFO: Abrindo a página 1
+
+2024-08-02 21:33:36,164 - INFO: Abrindo a página 1
+
+
+2024-08-02 21:33:47,717 - INFO: Clicando no card 1/20 com nome 'Full Stack C# - Pleno', 'iv' 9805653 e page 1.
+2024-08-02 21:33:47,758 - INFO: Botão de aplicar-se pronto para ser clicado.
+2024-08-02 21:33:47,867 - INFO: Botão de aplicar-se clicado.
+2024-08-02 21:33:47,874 - INFO: Verificando se o elemento div.h3.mb-32 exite.
+2024-08-02 21:33:58,343 - INFO: O elemento div.h3.mb-32 não exite.
+
+2024-08-02 21:34:09,329 - INFO: Clicando no card 2/20 com nome 'Software Tester Pleno - Home Office', 'iv' 9804337 e page 1.
+2024-08-02 21:34:09,373 - INFO: Botão de aplicar-se pronto para ser clicado.
+2024-08-02 21:34:09,480 - INFO: Botão de aplicar-se clicado.
+2024-08-02 21:34:09,553 - INFO: Verificando se o elemento div.h3.mb-32 exite.
+2024-08-02 21:34:10,132 - INFO: O elemento div.h3.mb-32 exite.
+2024-08-02 21:34:10,165 - INFO: Vaga requer respostas a perguntas adicionais.
+2024-08-02 21:34:10,167 - INFO: Pulando vaga.
+2024-08-02 21:34:10,221 - INFO: Card 2 reclicando para fechar as perguntas.
+2024-08-02 21:34:10,323 - INFO: Card 2 reclicado com sucesso.
+2024-08-02 21:34:10,327 - INFO: Verificando se o elemento btnSharedLooseChangesModalDiscardForm exite.
+2024-08-02 21:34:10,356 - INFO: O elemento btnSharedLooseChangesModalDiscardForm exite.
+2024-08-02 21:34:10,356 - INFO: Verificando se o elemento btnSharedLooseChangesModalDiscardForm exite.
+2024-08-02 21:34:10,374 - INFO: O elemento btnSharedLooseChangesModalDiscardForm exite.
+2024-08-02 21:34:20,445 - ERROR: Erro ao clicar para fechar o Modal.
+2024-08-02 21:34:20,446 - ERROR: Erro inesperado ao processar o card 2: Message: stale element reference: stale element not found in the current frame
+  (Session info: MicrosoftEdge=127.0.2651.86); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#stale-element-reference-exception
+Stacktrace:
+	GetHandleVerifier [0x00007FF627D28132+13538]
+	Microsoft::Applications::Events::EventProperty::~EventProperty [0x00007FF627CB1DE9+595465]
+	(No symbol) [0x00007FF627ACE6CF]
+	(No symbol) [0x00007FF627AD37C9]
+	(No symbol) [0x00007FF627AD56CB]
+	(No symbol) [0x00007FF627AD5770]
+	(No symbol) [0x00007FF627B1440F]
+	(No symbol) [0x00007FF627B085E6]
+	(No symbol) [0x00007FF627B31FFA]
+	(No symbol) [0x00007FF627B08147]
+	(No symbol) [0x00007FF627B0800D]
+	(No symbol) [0x00007FF627B322E0]
+	(No symbol) [0x00007FF627B08147]
+	(No symbol) [0x00007FF627B4B1EE]
+	(No symbol) [0x00007FF627B31C63]
+	(No symbol) [0x00007FF627B0766E]
+	(No symbol) [0x00007FF627B0683C]
+	(No symbol) [0x00007FF627B07221]
+	Microsoft::Applications::Events::EventProperty::to_string [0x00007FF627EE96D4+1099860]
+	Microsoft::Applications::Events::EventProperty::~EventProperty [0x00007FF627C2D8FC+53532]
+	Microsoft::Applications::Events::EventProperty::~EventProperty [0x00007FF627C20E25+1605]
+	Microsoft::Applications::Events::EventProperty::to_string [0x00007FF627EE8665+1095653]
+	Microsoft::Applications::Events::ILogConfiguration::operator* [0x00007FF627CBC961+27777]
+	Microsoft::Applications::Events::ILogConfiguration::operator* [0x00007FF627CB6CE4+4100]
+	Microsoft::Applications::Events::ILogConfiguration::operator* [0x00007FF627CB6E1B+4411]
+	Microsoft::Applications::Events::EventProperty::~EventProperty [0x00007FF627CACFA0+575424]
+	BaseThreadInitThunk [0x00007FFF0E077374+20]
+	RtlUserThreadStart [0x00007FFF0F65CC91+33]
+
+2024-08-02 21:34:20,448 - ERROR: Erro ao processar o card 2: Message: stale element reference: stale element not found in the current frame
+  (Session info: MicrosoftEdge=127.0.2651.86); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#stale-element-reference-exception
+Stacktrace:
+	GetHandleVerifier [0x00007FF627D28132+13538]
+	Microsoft::Applications::Events::EventProperty::~EventProperty [0x00007FF627CB1DE9+595465]
+	(No symbol) [0x00007FF627ACE6CF]
+	(No symbol) [0x00007FF627AD37C9]
+	(No symbol) [0x00007FF627AD56CB]
+	(No symbol) [0x00007FF627AD5770]
+	(No symbol) [0x00007FF627B1440F]
+	(No symbol) [0x00007FF627B085E6]
+	(No symbol) [0x00007FF627B31FFA]
+	(No symbol) [0x00007FF627B08147]
+	(No symbol) [0x00007FF627B0800D]
+	(No symbol) [0x00007FF627B322E0]
+	(No symbol) [0x00007FF627B08147]
+	(No symbol) [0x00007FF627B4B1EE]
+	(No symbol) [0x00007FF627B31C63]
+	(No symbol) [0x00007FF627B0766E]
+	(No symbol) [0x00007FF627B0683C]
+	(No symbol) [0x00007FF627B07221]
+	Microsoft::Applications::Events::EventProperty::to_string [0x00007FF627EE96D4+1099860]
+	Microsoft::Applications::Events::EventProperty::~EventProperty [0x00007FF627C2D8FC+53532]
+	Microsoft::Applications::Events::EventProperty::~EventProperty [0x00007FF627C20E25+1605]
+	Microsoft::Applications::Events::EventProperty::to_string [0x00007FF627EE8665+1095653]
+	Microsoft::Applications::Events::ILogConfiguration::operator* [0x00007FF627CBC961+27777]
+	Microsoft::Applications::Events::ILogConfiguration::operator* [0x00007FF627CB6CE4+4100]
+	Microsoft::Applications::Events::ILogConfiguration::operator* [0x00007FF627CB6E1B+4411]
+	Microsoft::Applications::Events::EventProperty::~EventProperty [0x00007FF627CACFA0+575424]
+	BaseThreadInitThunk [0x00007FFF0E077374+20]
+	RtlUserThreadStart [0x00007FFF0F65CC91+33]
+
+2024-08-02 21:34:39,798 - INFO: Driver finalizado.
+2024-08-02 21:35:51,368 - INFO: Driver configurado com sucesso.
+2024-08-02 21:35:51,487 - INFO: Aceitando cookies...
+2024-08-02 21:36:28,880 - INFO: Realizando login...
+2024-08-02 21:36:43,088 - INFO: Login realizado com sucesso.
+2024-08-02 21:36:43,093 - INFO: Clicando em todos os cards...
+2024-08-02 21:36:43,097 - INFO: Abrindo a página 1
+
+2024-08-02 21:36:46,803 - INFO: Abrindo a página 1
+
+
+2024-08-02 21:36:58,857 - INFO: Clicando no card 1/20 com nome 'Full Stack C# - Pleno', 'iv' 9805653 e page 1.
+2024-08-02 21:36:59,085 - INFO: Botão de aplicar-se pronto para ser clicado.
+2024-08-02 21:36:59,819 - INFO: Botão de aplicar-se clicado.
+2024-08-02 21:36:59,829 - INFO: Verificando se o elemento div.h3.mb-32 exite.
+2024-08-02 21:37:10,147 - INFO: O elemento div.h3.mb-32 não exite.
+
+2024-08-02 21:37:20,573 - INFO: Clicando no card 2/20 com nome 'Software Tester Pleno - Home Office', 'iv' 9804337 e page 1.
+2024-08-02 21:37:20,621 - INFO: Botão de aplicar-se pronto para ser clicado.
+2024-08-02 21:37:20,723 - INFO: Botão de aplicar-se clicado.
+2024-08-02 21:37:20,751 - INFO: Verificando se o elemento div.h3.mb-32 exite.
+2024-08-02 21:37:21,320 - INFO: O elemento div.h3.mb-32 exite.
+2024-08-02 21:37:21,351 - INFO: Vaga requer respostas a perguntas adicionais.
+2024-08-02 21:37:21,352 - INFO: Pulando vaga.
+2024-08-02 21:37:21,419 - INFO: Card 2 reclicando para fechar as perguntas.
+2024-08-02 21:37:21,600 - INFO: Card 2 reclicado com sucesso.
+2024-08-02 21:37:21,628 - INFO: Verificando se o elemento btnSharedLooseChangesModalDiscardForm exite.
+2024-08-02 21:37:21,710 - INFO: O elemento btnSharedLooseChangesModalDiscardForm exite.
+2024-08-02 21:37:21,729 - INFO: Verificando se o elemento btnSharedLooseChangesModalDiscardForm exite.
+2024-08-02 21:37:22,008 - INFO: O elemento btnSharedLooseChangesModalDiscardForm exite.
+2024-08-02 21:37:32,262 - INFO: Botão do modal clicado. Modal fechado com sucesso.
+2024-08-02 21:37:32,266 - INFO: Verificando se o elemento btnSharedLooseChangesModalDiscardForm exite.
+2024-08-02 21:37:42,572 - INFO: O elemento btnSharedLooseChangesModalDiscardForm não exite.
+
+2024-08-02 21:37:52,882 - INFO: Clicando no card 3/20 com nome 'Analista De Sistemas - Desenvolvedor Delphi', 'iv' 6566793 e page 1.
+2024-08-02 21:37:52,949 - INFO: Botão de aplicar-se pronto para ser clicado.
+2024-08-02 21:37:53,221 - INFO: Botão de aplicar-se clicado.
+2024-08-02 21:37:53,253 - INFO: Verificando se o elemento div.h3.mb-32 exite.
+2024-08-02 21:38:03,594 - INFO: O elemento div.h3.mb-32 não exite.
+2024-08-02 21:38:14,157 - ERROR: Erro de tempo ao processar o card 4.
+2024-08-02 21:40:42,170 - INFO: Driver finalizado.
+2024-08-02 22:10:36,266 - INFO: Driver configurado com sucesso.
+2024-08-02 22:10:36,266 - INFO: Aceitando cookies...
+2024-08-02 22:10:55,174 - INFO: Realizando login...
+2024-08-02 22:11:05,573 - INFO: Login realizado com sucesso.
+2024-08-02 22:11:05,574 - INFO: Clicando em todos os cards...
+2024-08-02 22:11:05,576 - INFO: Abrindo a página 1
+
+2024-08-02 22:11:07,310 - INFO: Abrindo a página 1
+
+
+2024-08-02 22:11:18,416 - INFO: Clicando no card 1/20 com nome 'Full Stack C# - Pleno', 'iv' 9805653 e page 1.
+2024-08-02 22:11:18,447 - INFO: Botão de aplicar-se pronto para ser clicado.
+2024-08-02 22:11:18,523 - INFO: Botão de aplicar-se clicado.
+2024-08-02 22:11:18,524 - INFO: Verificando se o elemento div.h3.mb-32 exite.
+2024-08-02 22:11:28,758 - INFO: O elemento div.h3.mb-32 não exite.
+
+2024-08-02 22:11:38,963 - INFO: Clicando no card 2/20 com nome 'Software Tester Pleno - Home Office', 'iv' 9804337 e page 1.
+2024-08-02 22:11:38,994 - INFO: Botão de aplicar-se pronto para ser clicado.
+2024-08-02 22:11:39,063 - INFO: Botão de aplicar-se clicado.
+2024-08-02 22:11:39,065 - INFO: Verificando se o elemento div.h3.mb-32 exite.
+2024-08-02 22:11:39,588 - INFO: O elemento div.h3.mb-32 exite.
+2024-08-02 22:11:39,588 - INFO: Vaga requer respostas a perguntas adicionais.
+2024-08-02 22:11:39,589 - INFO: Pulando vaga.
+2024-08-02 22:11:39,615 - INFO: Card 2 reclicando para fechar as perguntas.
+2024-08-02 22:11:39,672 - INFO: Card 2 reclicado com sucesso.
+2024-08-02 22:11:39,674 - INFO: Verificando se o elemento btnSharedLooseChangesModalDiscardForm exite.
+2024-08-02 22:11:39,677 - INFO: O elemento btnSharedLooseChangesModalDiscardForm exite.
+2024-08-02 22:11:39,693 - INFO: Verificando se o elemento btnSharedLooseChangesModalDiscardForm exite.
+2024-08-02 22:11:39,693 - INFO: O elemento btnSharedLooseChangesModalDiscardForm exite.
+2024-08-02 22:11:49,821 - INFO: Botão do modal clicado. Modal fechado com sucesso.
+2024-08-02 22:11:49,822 - INFO: Verificando se o elemento btnSharedLooseChangesModalDiscardForm exite.
+2024-08-02 22:12:00,003 - INFO: O elemento btnSharedLooseChangesModalDiscardForm não exite.
+
+2024-08-02 22:12:10,230 - INFO: Clicando no card 3/20 com nome 'Analista De Sistemas - Desenvolvedor Delphi', 'iv' 6566793 e page 1.
+2024-08-02 22:12:10,245 - INFO: Botão de aplicar-se pronto para ser clicado.
+2024-08-02 22:12:10,315 - INFO: Botão de aplicar-se clicado.
+2024-08-02 22:12:10,315 - INFO: Verificando se o elemento div.h3.mb-32 exite.
+2024-08-02 22:12:20,516 - INFO: O elemento div.h3.mb-32 não exite.
+
+2024-08-02 22:12:30,660 - INFO: Clicando no card 4/20 com nome 'Analista Técnico Funcional Sênior', 'iv' 9799747 e page 1.
+2024-08-02 22:12:30,692 - INFO: Botão de aplicar-se pronto para ser clicado.
+2024-08-02 22:12:30,755 - INFO: Botão de aplicar-se clicado.
+2024-08-02 22:12:30,756 - INFO: Verificando se o elemento div.h3.mb-32 exite.
+2024-08-02 22:12:40,969 - INFO: O elemento div.h3.mb-32 não exite.
+
+2024-08-02 22:12:51,105 - INFO: Clicando no card 5/20 com nome 'Analista De Modelagem III_Externo | Almaviva Fortaleza', 'iv' 9798357 e page 1.
+2024-08-02 22:12:51,136 - INFO: Botão de aplicar-se pronto para ser clicado.
+2024-08-02 22:12:51,272 - INFO: Botão de aplicar-se clicado.
+2024-08-02 22:12:51,272 - INFO: Verificando se o elemento div.h3.mb-32 exite.
+2024-08-02 22:13:01,484 - INFO: O elemento div.h3.mb-32 não exite.
+
+2024-08-02 22:13:11,637 - INFO: Clicando no card 6/20 com nome 'GRUPO LINS FERRÃO | Analista De Sistemas SR', 'iv' 9687061 e page 1.
+2024-08-02 22:13:11,653 - INFO: Botão de aplicar-se pronto para ser clicado.
+2024-08-02 22:13:11,723 - INFO: Botão de aplicar-se clicado.
+2024-08-02 22:13:11,723 - INFO: Verificando se o elemento div.h3.mb-32 exite.
+2024-08-02 22:13:12,250 - INFO: O elemento div.h3.mb-32 exite.
+2024-08-02 22:13:12,251 - INFO: Vaga requer respostas a perguntas adicionais.
+2024-08-02 22:13:12,252 - INFO: Pulando vaga.
+2024-08-02 22:13:12,278 - INFO: Card 6 reclicando para fechar as perguntas.
+2024-08-02 22:13:12,360 - INFO: Card 6 reclicado com sucesso.
+2024-08-02 22:13:12,368 - INFO: Verificando se o elemento btnSharedLooseChangesModalDiscardForm exite.
+2024-08-02 22:13:12,391 - INFO: O elemento btnSharedLooseChangesModalDiscardForm exite.
+2024-08-02 22:13:12,391 - INFO: Verificando se o elemento btnSharedLooseChangesModalDiscardForm exite.
+2024-08-02 22:13:12,403 - INFO: O elemento btnSharedLooseChangesModalDiscardForm exite.
+2024-08-02 22:13:22,490 - INFO: Botão do modal clicado. Modal fechado com sucesso.
+2024-08-02 22:13:22,490 - INFO: Verificando se o elemento btnSharedLooseChangesModalDiscardForm exite.
+2024-08-02 22:13:32,672 - INFO: O elemento btnSharedLooseChangesModalDiscardForm não exite.
+
+2024-08-02 22:13:42,827 - INFO: Clicando no card 7/20 com nome '01450/2024 - Analista De Infraestrutura De TI - Júnior', 'iv' 9791046 e page 1.
+2024-08-02 22:13:42,858 - INFO: Botão de aplicar-se pronto para ser clicado.
+2024-08-02 22:13:42,932 - INFO: Botão de aplicar-se clicado.
+2024-08-02 22:13:42,932 - INFO: Verificando se o elemento div.h3.mb-32 exite.
+2024-08-02 22:13:43,465 - INFO: O elemento div.h3.mb-32 exite.
+2024-08-02 22:13:43,465 - INFO: Vaga requer respostas a perguntas adicionais.
+2024-08-02 22:13:43,466 - INFO: Pulando vaga.
+2024-08-02 22:13:43,496 - INFO: Card 7 reclicando para fechar as perguntas.
+2024-08-02 22:13:43,559 - INFO: Card 7 reclicado com sucesso.
+2024-08-02 22:13:43,561 - INFO: Verificando se o elemento btnSharedLooseChangesModalDiscardForm exite.
+2024-08-02 22:13:43,578 - INFO: O elemento btnSharedLooseChangesModalDiscardForm exite.
+2024-08-02 22:13:43,579 - INFO: Verificando se o elemento btnSharedLooseChangesModalDiscardForm exite.
+2024-08-02 22:13:43,595 - INFO: O elemento btnSharedLooseChangesModalDiscardForm exite.
+2024-08-02 22:13:53,670 - INFO: Botão do modal clicado. Modal fechado com sucesso.
+2024-08-02 22:13:53,671 - INFO: Verificando se o elemento btnSharedLooseChangesModalDiscardForm exite.
+2024-08-02 22:14:03,885 - INFO: O elemento btnSharedLooseChangesModalDiscardForm não exite.
+
+2024-08-02 22:14:14,061 - INFO: Clicando no card 8/20 com nome 'Analista SAP MM', 'iv' 9786048 e page 1.
+2024-08-02 22:14:14,092 - INFO: Botão de aplicar-se pronto para ser clicado.
+2024-08-02 22:14:14,160 - INFO: Botão de aplicar-se clicado.
+2024-08-02 22:14:14,160 - INFO: Verificando se o elemento div.h3.mb-32 exite.
+2024-08-02 22:14:24,386 - INFO: O elemento div.h3.mb-32 não exite.
+
+2024-08-02 22:14:34,519 - INFO: Clicando no card 9/20 com nome 'Analista Da Segurança Da Informação - Porto Alegre', 'iv' 9784525 e page 1.
+2024-08-02 22:14:34,550 - INFO: Botão de aplicar-se pronto para ser clicado.
+2024-08-02 22:14:34,622 - INFO: Botão de aplicar-se clicado.
+2024-08-02 22:14:34,622 - INFO: Verificando se o elemento div.h3.mb-32 exite.
+2024-08-02 22:14:35,147 - INFO: O elemento div.h3.mb-32 exite.
+2024-08-02 22:14:35,147 - INFO: Vaga requer respostas a perguntas adicionais.
+2024-08-02 22:14:35,148 - INFO: Pulando vaga.
+2024-08-02 22:14:35,176 - INFO: Card 9 reclicando para fechar as perguntas.
+2024-08-02 22:14:35,240 - INFO: Card 9 reclicado com sucesso.
+2024-08-02 22:14:35,242 - INFO: Verificando se o elemento btnSharedLooseChangesModalDiscardForm exite.
+2024-08-02 22:14:35,258 - INFO: O elemento btnSharedLooseChangesModalDiscardForm exite.
+2024-08-02 22:14:35,258 - INFO: Verificando se o elemento btnSharedLooseChangesModalDiscardForm exite.
+2024-08-02 22:14:35,274 - INFO: O elemento btnSharedLooseChangesModalDiscardForm exite.
+2024-08-02 22:14:45,358 - INFO: Botão do modal clicado. Modal fechado com sucesso.
+2024-08-02 22:14:45,359 - INFO: Verificando se o elemento btnSharedLooseChangesModalDiscardForm exite.
+2024-08-02 22:14:55,547 - INFO: O elemento btnSharedLooseChangesModalDiscardForm não exite.
+
+2024-08-02 22:15:05,702 - INFO: Clicando no card 10/20 com nome 'DESENVOLVEDOR FRONT- END', 'iv' 9783690 e page 1.
+2024-08-02 22:15:05,733 - INFO: Botão de aplicar-se pronto para ser clicado.
+2024-08-02 22:15:05,832 - INFO: Botão de aplicar-se clicado.
+2024-08-02 22:15:05,835 - INFO: Verificando se o elemento div.h3.mb-32 exite.
+2024-08-02 22:15:16,044 - INFO: O elemento div.h3.mb-32 não exite.
+
+2024-08-02 22:15:26,184 - INFO: Clicando no card 11/20 com nome 'Analista De E-Commerce', 'iv' 9783269 e page 1.
+2024-08-02 22:15:26,215 - INFO: Botão de aplicar-se pronto para ser clicado.
+2024-08-02 22:15:26,286 - INFO: Botão de aplicar-se clicado.
+2024-08-02 22:15:26,286 - INFO: Verificando se o elemento div.h3.mb-32 exite.
+2024-08-02 22:15:26,813 - INFO: O elemento div.h3.mb-32 exite.
+2024-08-02 22:15:26,814 - INFO: Vaga requer respostas a perguntas adicionais.
+2024-08-02 22:15:26,817 - INFO: Pulando vaga.
+2024-08-02 22:15:26,856 - INFO: Card 11 reclicando para fechar as perguntas.
+2024-08-02 22:15:26,930 - INFO: Card 11 reclicado com sucesso.
+2024-08-02 22:15:26,934 - INFO: Verificando se o elemento btnSharedLooseChangesModalDiscardForm exite.
+2024-08-02 22:15:26,948 - INFO: O elemento btnSharedLooseChangesModalDiscardForm exite.
+2024-08-02 22:15:26,948 - INFO: Verificando se o elemento btnSharedLooseChangesModalDiscardForm exite.
+2024-08-02 22:15:26,961 - INFO: O elemento btnSharedLooseChangesModalDiscardForm exite.
+2024-08-02 22:15:37,044 - INFO: Botão do modal clicado. Modal fechado com sucesso.
+2024-08-02 22:15:37,045 - INFO: Verificando se o elemento btnSharedLooseChangesModalDiscardForm exite.
+2024-08-02 22:15:47,240 - INFO: O elemento btnSharedLooseChangesModalDiscardForm não exite.
+
+2024-08-02 22:15:57,440 - INFO: Clicando no card 12/20 com nome 'Analista De Middleware Sênior', 'iv' 9783100 e page 1.
+2024-08-02 22:15:57,472 - INFO: Botão de aplicar-se pronto para ser clicado.
+2024-08-02 22:15:57,542 - INFO: Botão de aplicar-se clicado.
+2024-08-02 22:15:57,542 - INFO: Verificando se o elemento div.h3.mb-32 exite.
+2024-08-02 22:16:07,739 - INFO: O elemento div.h3.mb-32 não exite.
+
+2024-08-02 22:16:17,880 - INFO: Clicando no card 13/20 com nome 'Work From Home IT Security Analyst', 'iv' 9781946 e page 1.
+2024-08-02 22:16:17,911 - INFO: Botão de aplicar-se pronto para ser clicado.
+2024-08-02 22:16:17,980 - INFO: Botão de aplicar-se clicado.
+2024-08-02 22:16:17,980 - INFO: Verificando se o elemento div.h3.mb-32 exite.
+2024-08-02 22:16:28,229 - INFO: O elemento div.h3.mb-32 não exite.
+
+2024-08-02 22:16:38,390 - INFO: Clicando no card 14/20 com nome 'Work From Home Front-End QA Analyst', 'iv' 9781944 e page 1.
+2024-08-02 22:16:38,422 - INFO: Botão de aplicar-se pronto para ser clicado.
+2024-08-02 22:16:38,544 - INFO: Botão de aplicar-se clicado.
+2024-08-02 22:16:38,544 - INFO: Verificando se o elemento div.h3.mb-32 exite.
+2024-08-02 22:16:48,751 - INFO: O elemento div.h3.mb-32 não exite.
+
+2024-08-02 22:16:58,878 - INFO: Clicando no card 15/20 com nome 'Work From Home IT Security Analyst', 'iv' 9781945 e page 1.
+2024-08-02 22:16:58,909 - INFO: Botão de aplicar-se pronto para ser clicado.
+2024-08-02 22:16:58,978 - INFO: Botão de aplicar-se clicado.
+2024-08-02 22:16:58,978 - INFO: Verificando se o elemento div.h3.mb-32 exite.
+2024-08-02 22:17:09,178 - INFO: O elemento div.h3.mb-32 não exite.
+
+2024-08-02 22:17:19,303 - INFO: Clicando no card 16/20 com nome 'Work From Home IT Security Analyst', 'iv' 9781947 e page 1.
+2024-08-02 22:17:19,334 - INFO: Botão de aplicar-se pronto para ser clicado.
+2024-08-02 22:17:19,409 - INFO: Botão de aplicar-se clicado.
+2024-08-02 22:17:19,409 - INFO: Verificando se o elemento div.h3.mb-32 exite.
+2024-08-02 22:17:29,608 - INFO: O elemento div.h3.mb-32 não exite.
+
+2024-08-02 22:17:39,773 - INFO: Clicando no card 17/20 com nome 'Trabalhe De Casa Pessoa Desenvolvedora Python', 'iv' 9781908 e page 1.
+2024-08-02 22:17:39,789 - INFO: Botão de aplicar-se pronto para ser clicado.
+2024-08-02 22:17:39,868 - INFO: Botão de aplicar-se clicado.
+2024-08-02 22:17:39,870 - INFO: Verificando se o elemento div.h3.mb-32 exite.
+2024-08-02 22:17:50,058 - INFO: O elemento div.h3.mb-32 não exite.
+
+2024-08-02 22:18:00,311 - INFO: Clicando no card 18/20 com nome 'Trabalhe De Casa Pessoa Desenvolvedora Python', 'iv' 9781909 e page 1.
+2024-08-02 22:18:00,343 - INFO: Botão de aplicar-se pronto para ser clicado.
+2024-08-02 22:18:00,407 - INFO: Botão de aplicar-se clicado.
+2024-08-02 22:18:00,407 - INFO: Verificando se o elemento div.h3.mb-32 exite.
+2024-08-02 22:18:10,614 - INFO: O elemento div.h3.mb-32 não exite.
+
+2024-08-02 22:18:20,747 - INFO: Clicando no card 19/20 com nome 'Work From Home Work From Home .NET + React Developer', 'iv' 9781920 e page 1.
+2024-08-02 22:18:20,779 - INFO: Botão de aplicar-se pronto para ser clicado.
+2024-08-02 22:18:20,864 - INFO: Botão de aplicar-se clicado.
+2024-08-02 22:18:20,866 - INFO: Verificando se o elemento div.h3.mb-32 exite.
+2024-08-02 22:18:31,075 - INFO: O elemento div.h3.mb-32 não exite.
+
+2024-08-02 22:18:41,202 - INFO: Clicando no card 20/20 com nome 'Work From Home Work From Home .NET + React Developer', 'iv' 9781922 e page 1.
+2024-08-02 22:18:41,233 - INFO: Botão de aplicar-se pronto para ser clicado.
+2024-08-02 22:18:41,312 - INFO: Botão de aplicar-se clicado.
+2024-08-02 22:18:41,316 - INFO: Verificando se o elemento div.h3.mb-32 exite.
+2024-08-02 22:18:51,519 - INFO: O elemento div.h3.mb-32 não exite.
+2024-08-02 22:18:51,519 - INFO: Abrindo a página 2
+
+
+2024-08-02 22:19:03,415 - INFO: Clicando no card 1/20 com nome 'Work From Home Devops Engineer', 'iv' 9781926 e page 2.
+2024-08-02 22:19:03,446 - INFO: Botão de aplicar-se pronto para ser clicado.
+2024-08-02 22:19:03,515 - INFO: Botão de aplicar-se clicado.
+2024-08-02 22:19:03,515 - INFO: Verificando se o elemento div.h3.mb-32 exite.
+2024-08-02 22:19:13,707 - INFO: O elemento div.h3.mb-32 não exite.
+
+2024-08-02 22:19:23,834 - INFO: Clicando no card 2/20 com nome 'Work From Home Devops Engineer', 'iv' 9781927 e page 2.
+2024-08-02 22:19:23,865 - INFO: Botão de aplicar-se pronto para ser clicado.
+2024-08-02 22:19:23,930 - INFO: Botão de aplicar-se clicado.
+2024-08-02 22:19:23,962 - INFO: Verificando se o elemento div.h3.mb-32 exite.
+2024-08-02 22:19:34,155 - INFO: O elemento div.h3.mb-32 não exite.
+
+2024-08-02 22:19:44,327 - INFO: Clicando no card 3/20 com nome 'Trabalhe De Casa Desenvolvedora/Engenheira React', 'iv' 9781900 e page 2.
+2024-08-02 22:19:44,343 - INFO: Botão de aplicar-se pronto para ser clicado.
+2024-08-02 22:19:44,415 - INFO: Botão de aplicar-se clicado.
+2024-08-02 22:19:44,415 - INFO: Verificando se o elemento div.h3.mb-32 exite.
+2024-08-02 22:19:54,603 - INFO: O elemento div.h3.mb-32 não exite.
+
+2024-08-02 22:20:04,741 - INFO: Clicando no card 4/20 com nome 'Trabalhe De Casa Desenvolvedora/Engenheira React', 'iv' 9781901 e page 2.
+2024-08-02 22:20:04,772 - INFO: Botão de aplicar-se pronto para ser clicado.
+2024-08-02 22:20:04,837 - INFO: Botão de aplicar-se clicado.
+2024-08-02 22:20:04,837 - INFO: Verificando se o elemento div.h3.mb-32 exite.
+2024-08-02 22:20:15,035 - INFO: O elemento div.h3.mb-32 não exite.
+
+2024-08-02 22:20:25,199 - INFO: Clicando no card 5/20 com nome 'Trabalhe De Casa Desenvolvedora/Engenheira React', 'iv' 9781902 e page 2.
+2024-08-02 22:20:25,228 - INFO: Botão de aplicar-se pronto para ser clicado.
+2024-08-02 22:20:25,322 - INFO: Botão de aplicar-se clicado.
+2024-08-02 22:20:25,322 - INFO: Verificando se o elemento div.h3.mb-32 exite.
+2024-08-02 22:20:35,546 - INFO: O elemento div.h3.mb-32 não exite.
+
+2024-08-02 22:20:46,267 - INFO: Clicando no card 6/20 com nome 'Work From Home Work From Home .NET + React Developer', 'iv' 9781921 e page 2.
+2024-08-02 22:20:46,299 - INFO: Botão de aplicar-se pronto para ser clicado.
+2024-08-02 22:20:46,369 - INFO: Botão de aplicar-se clicado.
+2024-08-02 22:20:46,369 - INFO: Verificando se o elemento div.h3.mb-32 exite.
+2024-08-02 22:20:56,572 - INFO: O elemento div.h3.mb-32 não exite.
+
+2024-08-02 22:21:06,730 - INFO: Clicando no card 7/20 com nome 'Work From Home Devops Engineer', 'iv' 9781928 e page 2.
+2024-08-02 22:21:06,746 - INFO: Botão de aplicar-se pronto para ser clicado.
+2024-08-02 22:21:06,813 - INFO: Botão de aplicar-se clicado.
+2024-08-02 22:21:06,813 - INFO: Verificando se o elemento div.h3.mb-32 exite.
+2024-08-02 22:21:17,009 - INFO: O elemento div.h3.mb-32 não exite.
+
+2024-08-02 22:21:27,145 - INFO: Clicando no card 8/20 com nome 'Trabalhe De Casa Pessoa Desenvolvedora React', 'iv' 9781904 e page 2.
+2024-08-02 22:21:27,176 - INFO: Botão de aplicar-se pronto para ser clicado.
+2024-08-02 22:21:27,243 - INFO: Botão de aplicar-se clicado.
+2024-08-02 22:21:27,275 - INFO: Verificando se o elemento div.h3.mb-32 exite.
+2024-08-02 22:21:37,482 - INFO: O elemento div.h3.mb-32 não exite.
+
+2024-08-02 22:21:47,617 - INFO: Clicando no card 9/20 com nome 'Trabalhe De Casa Pessoa Desenvolvedora React', 'iv' 9781905 e page 2.
+2024-08-02 22:21:47,648 - INFO: Botão de aplicar-se pronto para ser clicado.
+2024-08-02 22:21:47,711 - INFO: Botão de aplicar-se clicado.
+2024-08-02 22:21:47,715 - INFO: Verificando se o elemento div.h3.mb-32 exite.
+2024-08-02 22:21:57,901 - INFO: O elemento div.h3.mb-32 não exite.
+
+2024-08-02 22:22:08,044 - INFO: Clicando no card 10/20 com nome 'Trabalhe De Casa Desenvolvedora/Engenheira Java', 'iv' 9781913 e page 2.
+2024-08-02 22:22:08,075 - INFO: Botão de aplicar-se pronto para ser clicado.
+2024-08-02 22:22:08,136 - INFO: Botão de aplicar-se clicado.
+2024-08-02 22:22:08,136 - INFO: Verificando se o elemento div.h3.mb-32 exite.
+2024-08-02 22:22:18,331 - INFO: O elemento div.h3.mb-32 não exite.
+
+2024-08-02 22:22:28,485 - INFO: Clicando no card 11/20 com nome 'Trabalhe De Casa Desenvolvedora/Engenheira Java', 'iv' 9781914 e page 2.
+2024-08-02 22:22:28,501 - INFO: Botão de aplicar-se pronto para ser clicado.
+2024-08-02 22:22:28,566 - INFO: Botão de aplicar-se clicado.
+2024-08-02 22:22:28,566 - INFO: Verificando se o elemento div.h3.mb-32 exite.
+2024-08-02 22:22:38,767 - INFO: O elemento div.h3.mb-32 não exite.
+
+2024-08-02 22:22:48,890 - INFO: Clicando no card 12/20 com nome 'Trabalhe De Casa Desenvolvedora/Engenheira Java', 'iv' 9781915 e page 2.
+2024-08-02 22:22:48,922 - INFO: Botão de aplicar-se pronto para ser clicado.
+2024-08-02 22:22:49,011 - INFO: Botão de aplicar-se clicado.
+2024-08-02 22:22:49,011 - INFO: Verificando se o elemento div.h3.mb-32 exite.
+2024-08-02 22:22:59,215 - INFO: O elemento div.h3.mb-32 não exite.
+
+2024-08-02 22:23:09,366 - INFO: Clicando no card 13/20 com nome 'Work From Home Work From Home .NET + React Developer', 'iv' 9781919 e page 2.
+2024-08-02 22:23:09,381 - INFO: Botão de aplicar-se pronto para ser clicado.
+2024-08-02 22:23:09,447 - INFO: Botão de aplicar-se clicado.
+2024-08-02 22:23:09,481 - INFO: Verificando se o elemento div.h3.mb-32 exite.
+2024-08-02 22:23:19,672 - INFO: O elemento div.h3.mb-32 não exite.
+
+2024-08-02 22:23:29,793 - INFO: Clicando no card 14/20 com nome 'Work From Home Devops Engineer', 'iv' 9781929 e page 2.
+2024-08-02 22:23:29,824 - INFO: Botão de aplicar-se pronto para ser clicado.
+2024-08-02 22:23:29,916 - INFO: Botão de aplicar-se clicado.
+2024-08-02 22:23:29,919 - INFO: Verificando se o elemento div.h3.mb-32 exite.
+2024-08-02 22:23:40,125 - INFO: O elemento div.h3.mb-32 não exite.
+
+2024-08-02 22:23:50,253 - INFO: Clicando no card 15/20 com nome 'Work From Home Devops Engineer', 'iv' 9781930 e page 2.
+2024-08-02 22:23:50,284 - INFO: Botão de aplicar-se pronto para ser clicado.
+2024-08-02 22:23:50,356 - INFO: Botão de aplicar-se clicado.
+2024-08-02 22:23:50,356 - INFO: Verificando se o elemento div.h3.mb-32 exite.
+2024-08-02 22:24:00,578 - INFO: O elemento div.h3.mb-32 não exite.
+
+2024-08-02 22:24:10,714 - INFO: Clicando no card 16/20 com nome 'Work From Home Devops Engineer', 'iv' 9781931 e page 2.
+2024-08-02 22:24:10,746 - INFO: Botão de aplicar-se pronto para ser clicado.
+2024-08-02 22:24:10,822 - INFO: Botão de aplicar-se clicado.
+2024-08-02 22:24:10,824 - INFO: Verificando se o elemento div.h3.mb-32 exite.
+2024-08-02 22:24:21,034 - INFO: O elemento div.h3.mb-32 não exite.
+
+2024-08-02 22:24:31,175 - INFO: Clicando no card 17/20 com nome 'Work From Home Devops Engineer', 'iv' 9781932 e page 2.
+2024-08-02 22:24:31,206 - INFO: Botão de aplicar-se pronto para ser clicado.
+2024-08-02 22:24:31,277 - INFO: Botão de aplicar-se clicado.
+2024-08-02 22:24:31,278 - INFO: Verificando se o elemento div.h3.mb-32 exite.
+2024-08-02 22:24:41,487 - INFO: O elemento div.h3.mb-32 não exite.
+
+2024-08-02 22:24:51,640 - INFO: Clicando no card 18/20 com nome 'Work From Home Front-End QA Analyst', 'iv' 9781939 e page 2.
+2024-08-02 22:24:51,656 - INFO: Botão de aplicar-se pronto para ser clicado.
+2024-08-02 22:24:51,735 - INFO: Botão de aplicar-se clicado.
+2024-08-02 22:24:51,739 - INFO: Verificando se o elemento div.h3.mb-32 exite.
+2024-08-02 22:25:01,929 - INFO: O elemento div.h3.mb-32 não exite.
+
+2024-08-02 22:25:12,129 - INFO: Clicando no card 19/20 com nome 'Work From Home Front-End QA Analyst', 'iv' 9781940 e page 2.
+2024-08-02 22:25:12,160 - INFO: Botão de aplicar-se pronto para ser clicado.
+2024-08-02 22:25:12,228 - INFO: Botão de aplicar-se clicado.
+2024-08-02 22:25:12,228 - INFO: Verificando se o elemento div.h3.mb-32 exite.
+2024-08-02 22:25:22,446 - INFO: O elemento div.h3.mb-32 não exite.
+
+2024-08-02 22:25:32,618 - INFO: Clicando no card 20/20 com nome 'Work From Home Front-End QA Analyst', 'iv' 9781941 e page 2.
+2024-08-02 22:25:32,650 - INFO: Botão de aplicar-se pronto para ser clicado.
+2024-08-02 22:25:32,736 - INFO: Botão de aplicar-se clicado.
+2024-08-02 22:25:32,736 - INFO: Verificando se o elemento div.h3.mb-32 exite.
+2024-08-02 22:25:42,951 - INFO: O elemento div.h3.mb-32 não exite.
+2024-08-02 22:25:42,951 - INFO: Abrindo a página 3
+
+
+2024-08-02 22:25:54,847 - INFO: Clicando no card 1/20 com nome 'Work From Home Front-End QA Analyst', 'iv' 9781942 e page 3.
+2024-08-02 22:25:54,879 - INFO: Botão de aplicar-se pronto para ser clicado.
+2024-08-02 22:25:54,946 - INFO: Botão de aplicar-se clicado.
+2024-08-02 22:25:54,947 - INFO: Verificando se o elemento div.h3.mb-32 exite.
+2024-08-02 22:26:05,174 - INFO: O elemento div.h3.mb-32 não exite.
+
+2024-08-02 22:27:10,616 - ERROR: Erro ao clicar no card 2. Outro elemento interceptou o clique.
+2024-08-02 22:27:15,498 - INFO: Driver finalizado.
+2024-08-02 22:37:56,202 - INFO: Driver configurado com sucesso.
+2024-08-02 22:37:56,203 - INFO: Aceitando cookies...
+2024-08-02 22:38:13,896 - INFO: Realizando login...
+2024-08-02 22:38:24,600 - INFO: Login realizado com sucesso.
+2024-08-02 22:38:24,600 - INFO: Clicando em todos os cards...
+2024-08-02 22:38:24,600 - INFO: Abrindo a página 1
+
+2024-08-02 22:38:26,596 - INFO: Abrindo a página 1
+
+
+2024-08-02 22:38:37,736 - INFO: Clicando no card 1/20 com nome 'Full Stack C# - Pleno', 'iv' 9805653 e page 1.
+2024-08-02 22:38:37,751 - INFO: Botão de aplicar-se pronto para ser clicado.
+2024-08-02 22:38:37,843 - INFO: Botão de aplicar-se clicado.
+2024-08-02 22:38:37,843 - INFO: Verificando se o elemento div.h3.mb-32 exite.
+2024-08-02 22:38:48,070 - INFO: O elemento div.h3.mb-32 não exite.
+
+2024-08-02 22:38:58,253 - INFO: Clicando no card 2/20 com nome 'Software Tester Pleno - Home Office', 'iv' 9804337 e page 1.
+2024-08-02 22:38:58,284 - INFO: Botão de aplicar-se pronto para ser clicado.
+2024-08-02 22:38:58,354 - INFO: Botão de aplicar-se clicado.
+2024-08-02 22:38:58,356 - INFO: Verificando se o elemento div.h3.mb-32 exite.
+2024-08-02 22:38:58,883 - INFO: O elemento div.h3.mb-32 exite.
+2024-08-02 22:38:58,883 - INFO: Vaga requer respostas a perguntas adicionais.
+2024-08-02 22:38:58,885 - INFO: Pulando vaga.
+2024-08-02 22:38:58,913 - INFO: Card 2 reclicando para fechar as perguntas.
+2024-08-02 22:38:58,984 - INFO: Card 2 reclicado com sucesso.
+2024-08-02 22:38:58,986 - INFO: Verificando se o elemento btnSharedLooseChangesModalDiscardForm exite.
+2024-08-02 22:38:59,004 - INFO: O elemento btnSharedLooseChangesModalDiscardForm exite.
+2024-08-02 22:38:59,004 - INFO: Verificando se o elemento btnSharedLooseChangesModalDiscardForm exite.
+2024-08-02 22:38:59,021 - INFO: O elemento btnSharedLooseChangesModalDiscardForm exite.
+2024-08-02 22:39:09,127 - INFO: Botão do modal clicado. Modal fechado com sucesso.
+2024-08-02 22:39:09,127 - INFO: Verificando se o elemento btnSharedLooseChangesModalDiscardForm exite.
+2024-08-02 22:39:19,335 - INFO: O elemento btnSharedLooseChangesModalDiscardForm não exite.
+
+2024-08-02 22:39:29,500 - INFO: Clicando no card 3/20 com nome 'Analista De Sistemas - Desenvolvedor Delphi', 'iv' 6566793 e page 1.
+2024-08-02 22:39:29,531 - INFO: Botão de aplicar-se pronto para ser clicado.
+2024-08-02 22:39:29,600 - INFO: Botão de aplicar-se clicado.
+2024-08-02 22:39:29,600 - INFO: Verificando se o elemento div.h3.mb-32 exite.
+2024-08-02 22:39:39,838 - INFO: O elemento div.h3.mb-32 não exite.
+
+2024-08-02 22:39:50,017 - INFO: Clicando no card 4/20 com nome 'Analista Técnico Funcional Sênior', 'iv' 9799747 e page 1.
+2024-08-02 22:39:50,033 - INFO: Botão de aplicar-se pronto para ser clicado.
+2024-08-02 22:39:50,105 - INFO: Botão de aplicar-se clicado.
+2024-08-02 22:39:50,105 - INFO: Verificando se o elemento div.h3.mb-32 exite.
+2024-08-02 22:40:00,309 - INFO: O elemento div.h3.mb-32 não exite.
+
+2024-08-02 22:40:10,470 - INFO: Clicando no card 5/20 com nome 'Analista De Modelagem III_Externo | Almaviva Fortaleza', 'iv' 9798357 e page 1.
+2024-08-02 22:40:10,501 - INFO: Botão de aplicar-se pronto para ser clicado.
+2024-08-02 22:40:10,581 - INFO: Botão de aplicar-se clicado.
+2024-08-02 22:40:10,581 - INFO: Verificando se o elemento div.h3.mb-32 exite.
+2024-08-02 22:40:20,792 - INFO: O elemento div.h3.mb-32 não exite.
+
+2024-08-02 22:40:30,948 - INFO: Clicando no card 6/20 com nome 'GRUPO LINS FERRÃO | Analista De Sistemas SR', 'iv' 9687061 e page 1.
+2024-08-02 22:40:30,979 - INFO: Botão de aplicar-se pronto para ser clicado.
+2024-08-02 22:40:31,050 - INFO: Botão de aplicar-se clicado.
+2024-08-02 22:40:31,050 - INFO: Verificando se o elemento div.h3.mb-32 exite.
+2024-08-02 22:40:31,581 - INFO: O elemento div.h3.mb-32 exite.
+2024-08-02 22:40:31,581 - INFO: Vaga requer respostas a perguntas adicionais.
+2024-08-02 22:40:31,582 - INFO: Pulando vaga.
+2024-08-02 22:40:31,615 - INFO: Card 6 reclicando para fechar as perguntas.
+2024-08-02 22:40:31,692 - INFO: Card 6 reclicado com sucesso.
+2024-08-02 22:40:31,694 - INFO: Verificando se o elemento btnSharedLooseChangesModalDiscardForm exite.
+2024-08-02 22:40:31,704 - INFO: O elemento btnSharedLooseChangesModalDiscardForm exite.
+2024-08-02 22:40:31,704 - INFO: Verificando se o elemento btnSharedLooseChangesModalDiscardForm exite.
+2024-08-02 22:40:31,722 - INFO: O elemento btnSharedLooseChangesModalDiscardForm exite.
+2024-08-02 22:40:41,810 - INFO: Botão do modal clicado. Modal fechado com sucesso.
+2024-08-02 22:40:41,811 - INFO: Verificando se o elemento btnSharedLooseChangesModalDiscardForm exite.
+2024-08-02 22:40:52,033 - INFO: O elemento btnSharedLooseChangesModalDiscardForm não exite.
+
+2024-08-02 22:41:02,176 - INFO: Clicando no card 7/20 com nome '01450/2024 - Analista De Infraestrutura De TI - Júnior', 'iv' 9791046 e page 1.
+2024-08-02 22:41:02,208 - INFO: Botão de aplicar-se pronto para ser clicado.
+2024-08-02 22:41:02,296 - INFO: Botão de aplicar-se clicado.
+2024-08-02 22:41:02,310 - INFO: Verificando se o elemento div.h3.mb-32 exite.
+2024-08-02 22:41:02,855 - INFO: O elemento div.h3.mb-32 exite.
+2024-08-02 22:41:02,856 - INFO: Vaga requer respostas a perguntas adicionais.
+2024-08-02 22:41:02,857 - INFO: Pulando vaga.
+2024-08-02 22:41:02,892 - INFO: Card 7 reclicando para fechar as perguntas.
+2024-08-02 22:41:02,956 - INFO: Card 7 reclicado com sucesso.
+2024-08-02 22:41:02,958 - INFO: Verificando se o elemento btnSharedLooseChangesModalDiscardForm exite.
+2024-08-02 22:41:02,970 - INFO: O elemento btnSharedLooseChangesModalDiscardForm exite.
+2024-08-02 22:41:02,970 - INFO: Verificando se o elemento btnSharedLooseChangesModalDiscardForm exite.
+2024-08-02 22:41:02,982 - INFO: O elemento btnSharedLooseChangesModalDiscardForm exite.
+2024-08-02 22:41:13,084 - INFO: Botão do modal clicado. Modal fechado com sucesso.
+2024-08-02 22:41:13,085 - INFO: Verificando se o elemento btnSharedLooseChangesModalDiscardForm exite.
+2024-08-02 22:41:23,285 - INFO: O elemento btnSharedLooseChangesModalDiscardForm não exite.
+
+2024-08-02 22:41:33,447 - INFO: Clicando no card 8/20 com nome 'Analista SAP MM', 'iv' 9786048 e page 1.
+2024-08-02 22:41:33,463 - INFO: Botão de aplicar-se pronto para ser clicado.
+2024-08-02 22:41:33,536 - INFO: Botão de aplicar-se clicado.
+2024-08-02 22:41:33,536 - INFO: Verificando se o elemento div.h3.mb-32 exite.
+2024-08-02 22:41:43,732 - INFO: O elemento div.h3.mb-32 não exite.
+
+2024-08-02 22:41:53,923 - INFO: Clicando no card 9/20 com nome 'Analista Da Segurança Da Informação - Porto Alegre', 'iv' 9784525 e page 1.
+2024-08-02 22:41:53,939 - INFO: Botão de aplicar-se pronto para ser clicado.
+2024-08-02 22:41:54,024 - INFO: Botão de aplicar-se clicado.
+2024-08-02 22:41:54,029 - INFO: Verificando se o elemento div.h3.mb-32 exite.
+2024-08-02 22:41:54,559 - INFO: O elemento div.h3.mb-32 exite.
+2024-08-02 22:41:54,560 - INFO: Vaga requer respostas a perguntas adicionais.
+2024-08-02 22:41:54,561 - INFO: Pulando vaga.
+2024-08-02 22:41:54,599 - INFO: Card 9 reclicando para fechar as perguntas.
+2024-08-02 22:41:54,684 - INFO: Card 9 reclicado com sucesso.
+2024-08-02 22:41:54,684 - INFO: Verificando se o elemento btnSharedLooseChangesModalDiscardForm exite.
+2024-08-02 22:41:54,706 - INFO: O elemento btnSharedLooseChangesModalDiscardForm exite.
+2024-08-02 22:41:54,708 - INFO: Verificando se o elemento btnSharedLooseChangesModalDiscardForm exite.
+2024-08-02 22:41:54,728 - INFO: O elemento btnSharedLooseChangesModalDiscardForm exite.
+2024-08-02 22:42:04,810 - INFO: Botão do modal clicado. Modal fechado com sucesso.
+2024-08-02 22:42:04,811 - INFO: Verificando se o elemento btnSharedLooseChangesModalDiscardForm exite.
+2024-08-02 22:42:15,008 - INFO: O elemento btnSharedLooseChangesModalDiscardForm não exite.
+
+2024-08-02 22:42:25,172 - INFO: Clicando no card 10/20 com nome 'DESENVOLVEDOR FRONT- END', 'iv' 9783690 e page 1.
+2024-08-02 22:42:25,187 - INFO: Botão de aplicar-se pronto para ser clicado.
+2024-08-02 22:42:25,259 - INFO: Botão de aplicar-se clicado.
+2024-08-02 22:42:25,259 - INFO: Verificando se o elemento div.h3.mb-32 exite.
+2024-08-02 22:42:35,473 - INFO: O elemento div.h3.mb-32 não exite.
+
+2024-08-02 22:42:45,658 - INFO: Clicando no card 11/20 com nome 'Analista De E-Commerce', 'iv' 9783269 e page 1.
+2024-08-02 22:42:45,689 - INFO: Botão de aplicar-se pronto para ser clicado.
+2024-08-02 22:42:45,760 - INFO: Botão de aplicar-se clicado.
+2024-08-02 22:42:45,761 - INFO: Verificando se o elemento div.h3.mb-32 exite.
+2024-08-02 22:42:46,286 - INFO: O elemento div.h3.mb-32 exite.
+2024-08-02 22:42:46,286 - INFO: Vaga requer respostas a perguntas adicionais.
+2024-08-02 22:42:46,288 - INFO: Pulando vaga.
+2024-08-02 22:42:46,317 - INFO: Card 11 reclicando para fechar as perguntas.
+2024-08-02 22:42:46,386 - INFO: Card 11 reclicado com sucesso.
+2024-08-02 22:42:46,388 - INFO: Verificando se o elemento btnSharedLooseChangesModalDiscardForm exite.
+2024-08-02 22:42:46,404 - INFO: O elemento btnSharedLooseChangesModalDiscardForm exite.
+2024-08-02 22:42:46,405 - INFO: Verificando se o elemento btnSharedLooseChangesModalDiscardForm exite.
+2024-08-02 22:42:46,423 - INFO: O elemento btnSharedLooseChangesModalDiscardForm exite.
+2024-08-02 22:42:56,506 - INFO: Botão do modal clicado. Modal fechado com sucesso.
+2024-08-02 22:42:56,506 - INFO: Verificando se o elemento btnSharedLooseChangesModalDiscardForm exite.
+2024-08-02 22:43:06,719 - INFO: O elemento btnSharedLooseChangesModalDiscardForm não exite.
+
+2024-08-02 22:43:16,902 - INFO: Clicando no card 12/20 com nome 'Analista De Middleware Sênior', 'iv' 9783100 e page 1.
+2024-08-02 22:43:16,918 - INFO: Botão de aplicar-se pronto para ser clicado.
+2024-08-02 22:43:16,989 - INFO: Botão de aplicar-se clicado.
+2024-08-02 22:43:16,991 - INFO: Verificando se o elemento div.h3.mb-32 exite.
+2024-08-02 22:43:27,203 - INFO: O elemento div.h3.mb-32 não exite.
+
+2024-08-02 22:43:37,337 - INFO: Clicando no card 13/20 com nome 'Work From Home IT Security Analyst', 'iv' 9781946 e page 1.
+2024-08-02 22:43:37,400 - INFO: Botão de aplicar-se pronto para ser clicado.
+2024-08-02 22:43:37,471 - INFO: Botão de aplicar-se clicado.
+2024-08-02 22:43:37,473 - INFO: Verificando se o elemento div.h3.mb-32 exite.
+2024-08-02 22:43:47,663 - INFO: O elemento div.h3.mb-32 não exite.
+
+2024-08-02 22:43:57,814 - INFO: Clicando no card 14/20 com nome 'Work From Home Front-End QA Analyst', 'iv' 9781944 e page 1.
+2024-08-02 22:43:57,833 - INFO: Botão de aplicar-se pronto para ser clicado.
+2024-08-02 22:43:57,915 - INFO: Botão de aplicar-se clicado.
+2024-08-02 22:43:57,917 - INFO: Verificando se o elemento div.h3.mb-32 exite.
+2024-08-02 22:44:08,124 - INFO: O elemento div.h3.mb-32 não exite.
+
+2024-08-02 22:44:19,300 - INFO: Clicando no card 15/20 com nome 'Work From Home IT Security Analyst', 'iv' 9781945 e page 1.
+2024-08-02 22:44:19,326 - INFO: Botão de aplicar-se pronto para ser clicado.
+2024-08-02 22:44:19,379 - INFO: Botão de aplicar-se clicado.
+2024-08-02 22:44:19,381 - INFO: Verificando se o elemento div.h3.mb-32 exite.
+2024-08-02 22:44:29,598 - INFO: O elemento div.h3.mb-32 não exite.
+
+2024-08-02 22:44:39,735 - INFO: Clicando no card 16/20 com nome 'Work From Home IT Security Analyst', 'iv' 9781947 e page 1.
+2024-08-02 22:44:39,766 - INFO: Botão de aplicar-se pronto para ser clicado.
+2024-08-02 22:44:39,834 - INFO: Botão de aplicar-se clicado.
+2024-08-02 22:44:39,838 - INFO: Verificando se o elemento div.h3.mb-32 exite.
+2024-08-02 22:44:50,034 - INFO: O elemento div.h3.mb-32 não exite.
+
+2024-08-02 22:45:00,184 - INFO: Clicando no card 17/20 com nome 'Trabalhe De Casa Pessoa Desenvolvedora Python', 'iv' 9781908 e page 1.
+2024-08-02 22:45:00,215 - INFO: Botão de aplicar-se pronto para ser clicado.
+2024-08-02 22:45:00,299 - INFO: Botão de aplicar-se clicado.
+2024-08-02 22:45:00,301 - INFO: Verificando se o elemento div.h3.mb-32 exite.
+2024-08-02 22:45:10,509 - INFO: O elemento div.h3.mb-32 não exite.
+
+2024-08-02 22:45:20,644 - INFO: Clicando no card 18/20 com nome 'Trabalhe De Casa Pessoa Desenvolvedora Python', 'iv' 9781909 e page 1.
+2024-08-02 22:45:20,675 - INFO: Botão de aplicar-se pronto para ser clicado.
+2024-08-02 22:45:20,741 - INFO: Botão de aplicar-se clicado.
+2024-08-02 22:45:20,741 - INFO: Verificando se o elemento div.h3.mb-32 exite.
+2024-08-02 22:45:30,941 - INFO: O elemento div.h3.mb-32 não exite.
+
+2024-08-02 22:45:41,070 - INFO: Clicando no card 19/20 com nome 'Work From Home Work From Home .NET + React Developer', 'iv' 9781920 e page 1.
+2024-08-02 22:45:41,101 - INFO: Botão de aplicar-se pronto para ser clicado.
+2024-08-02 22:45:41,183 - INFO: Botão de aplicar-se clicado.
+2024-08-02 22:45:41,185 - INFO: Verificando se o elemento div.h3.mb-32 exite.
+2024-08-02 22:45:51,382 - INFO: O elemento div.h3.mb-32 não exite.
+
+2024-08-02 22:46:01,507 - INFO: Clicando no card 20/20 com nome 'Work From Home Work From Home .NET + React Developer', 'iv' 9781922 e page 1.
+2024-08-02 22:46:01,539 - INFO: Botão de aplicar-se pronto para ser clicado.
+2024-08-02 22:46:01,614 - INFO: Botão de aplicar-se clicado.
+2024-08-02 22:46:01,618 - INFO: Verificando se o elemento div.h3.mb-32 exite.
+2024-08-02 22:46:11,811 - INFO: O elemento div.h3.mb-32 não exite.
+2024-08-02 22:46:11,811 - INFO: Abrindo a página 2
+
+
+2024-08-02 22:46:23,534 - INFO: Clicando no card 1/20 com nome 'Trabalhe De Casa Desenvolvedora/Engenheira Java', 'iv' 9781913 e page 2.
+2024-08-02 22:46:23,565 - INFO: Botão de aplicar-se pronto para ser clicado.
+2024-08-02 22:46:23,646 - INFO: Botão de aplicar-se clicado.
+2024-08-02 22:46:23,647 - INFO: Verificando se o elemento div.h3.mb-32 exite.
+2024-08-02 22:46:33,847 - INFO: O elemento div.h3.mb-32 não exite.
+
+2024-08-02 22:46:43,983 - INFO: Clicando no card 2/20 com nome 'Trabalhe De Casa Desenvolvedora/Engenheira Java', 'iv' 9781915 e page 2.
+2024-08-02 22:46:44,014 - INFO: Botão de aplicar-se pronto para ser clicado.
+2024-08-02 22:46:44,078 - INFO: Botão de aplicar-se clicado.
+2024-08-02 22:46:44,079 - INFO: Verificando se o elemento div.h3.mb-32 exite.
+2024-08-02 22:46:54,278 - INFO: O elemento div.h3.mb-32 não exite.
+
+2024-08-02 22:47:04,420 - INFO: Clicando no card 3/20 com nome 'Work From Home Work From Home .NET + React Developer', 'iv' 9781916 e page 2.
+2024-08-02 22:47:04,452 - INFO: Botão de aplicar-se pronto para ser clicado.
+2024-08-02 22:47:04,569 - INFO: Botão de aplicar-se clicado.
+2024-08-02 22:47:04,571 - INFO: Verificando se o elemento div.h3.mb-32 exite.
+2024-08-02 22:47:14,767 - INFO: O elemento div.h3.mb-32 não exite.
+
+2024-08-02 22:47:24,899 - INFO: Clicando no card 4/20 com nome 'Work From Home Work From Home .NET + React Developer', 'iv' 9781921 e page 2.
+2024-08-02 22:47:24,930 - INFO: Botão de aplicar-se pronto para ser clicado.
+2024-08-02 22:47:24,997 - INFO: Botão de aplicar-se clicado.
+2024-08-02 22:47:24,997 - INFO: Verificando se o elemento div.h3.mb-32 exite.
+2024-08-02 22:47:35,196 - INFO: O elemento div.h3.mb-32 não exite.
+
+2024-08-02 22:47:45,323 - INFO: Clicando no card 5/20 com nome 'Work From Home Work From Home .NET + React Developer', 'iv' 9781922 e page 2.
+2024-08-02 22:47:45,354 - INFO: Botão de aplicar-se pronto para ser clicado.
+2024-08-02 22:47:45,418 - INFO: Botão de aplicar-se clicado.
+2024-08-02 22:47:45,418 - INFO: Verificando se o elemento div.h3.mb-32 exite.
+2024-08-02 22:47:55,611 - INFO: O elemento div.h3.mb-32 não exite.
+
+2024-08-02 22:48:05,747 - INFO: Clicando no card 6/20 com nome 'Work From Home Devops Engineer', 'iv' 9781926 e page 2.
+2024-08-02 22:48:05,778 - INFO: Botão de aplicar-se pronto para ser clicado.
+2024-08-02 22:48:05,842 - INFO: Botão de aplicar-se clicado.
+2024-08-02 22:48:05,842 - INFO: Verificando se o elemento div.h3.mb-32 exite.
+2024-08-02 22:48:16,043 - INFO: O elemento div.h3.mb-32 não exite.
+
+2024-08-02 22:48:26,195 - INFO: Clicando no card 7/20 com nome 'Work From Home Front-End QA Analyst', 'iv' 9781939 e page 2.
+2024-08-02 22:48:26,210 - INFO: Botão de aplicar-se pronto para ser clicado.
+2024-08-02 22:48:26,281 - INFO: Botão de aplicar-se clicado.
+2024-08-02 22:48:26,281 - INFO: Verificando se o elemento div.h3.mb-32 exite.
+2024-08-02 22:48:36,485 - INFO: O elemento div.h3.mb-32 não exite.
+
+2024-08-02 22:48:46,627 - INFO: Clicando no card 8/20 com nome 'Work From Home Front-End QA Analyst', 'iv' 9781940 e page 2.
+2024-08-02 22:48:46,658 - INFO: Botão de aplicar-se pronto para ser clicado.
+2024-08-02 22:48:46,726 - INFO: Botão de aplicar-se clicado.
+2024-08-02 22:48:46,728 - INFO: Verificando se o elemento div.h3.mb-32 exite.
+2024-08-02 22:48:56,928 - INFO: O elemento div.h3.mb-32 não exite.
+
+2024-08-02 22:49:07,059 - INFO: Clicando no card 9/20 com nome 'Work From Home Front-End QA Analyst', 'iv' 9781941 e page 2.
+2024-08-02 22:49:07,090 - INFO: Botão de aplicar-se pronto para ser clicado.
+2024-08-02 22:49:07,152 - INFO: Botão de aplicar-se clicado.
+2024-08-02 22:49:07,153 - INFO: Verificando se o elemento div.h3.mb-32 exite.
+2024-08-02 22:49:17,354 - INFO: O elemento div.h3.mb-32 não exite.
+
+2024-08-02 22:49:27,507 - INFO: Clicando no card 10/20 com nome 'Work From Home Front-End QA Analyst', 'iv' 9781942 e page 2.
+2024-08-02 22:49:27,522 - INFO: Botão de aplicar-se pronto para ser clicado.
+2024-08-02 22:49:27,587 - INFO: Botão de aplicar-se clicado.
+2024-08-02 22:49:27,587 - INFO: Verificando se o elemento div.h3.mb-32 exite.
+2024-08-02 22:49:37,780 - INFO: O elemento div.h3.mb-32 não exite.
+
+2024-08-02 22:49:47,904 - INFO: Clicando no card 11/20 com nome 'Trabalhe De Casa Pessoa Desenvolvedora React', 'iv' 9781904 e page 2.
+2024-08-02 22:49:47,936 - INFO: Botão de aplicar-se pronto para ser clicado.
+2024-08-02 22:49:48,004 - INFO: Botão de aplicar-se clicado.
+2024-08-02 22:49:48,004 - INFO: Verificando se o elemento div.h3.mb-32 exite.
+2024-08-02 22:49:58,197 - INFO: O elemento div.h3.mb-32 não exite.
+
+2024-08-02 22:50:08,323 - INFO: Clicando no card 12/20 com nome 'Work From Home Work From Home .NET + React Developer', 'iv' 9781919 e page 2.
+2024-08-02 22:50:08,354 - INFO: Botão de aplicar-se pronto para ser clicado.
+2024-08-02 22:50:08,421 - INFO: Botão de aplicar-se clicado.
+2024-08-02 22:50:08,421 - INFO: Verificando se o elemento div.h3.mb-32 exite.
+2024-08-02 22:50:18,617 - INFO: O elemento div.h3.mb-32 não exite.
+
+2024-08-02 22:50:28,746 - INFO: Clicando no card 13/20 com nome 'Work From Home Work From Home .NET + React Developer', 'iv' 9781920 e page 2.
+2024-08-02 22:50:28,778 - INFO: Botão de aplicar-se pronto para ser clicado.
+2024-08-02 22:50:28,843 - INFO: Botão de aplicar-se clicado.
+2024-08-02 22:50:28,843 - INFO: Verificando se o elemento div.h3.mb-32 exite.
+2024-08-02 22:50:39,033 - INFO: O elemento div.h3.mb-32 não exite.
+
+2024-08-02 22:50:49,189 - INFO: Clicando no card 14/20 com nome 'Work From Home Devops Engineer', 'iv' 9781928 e page 2.
+2024-08-02 22:50:49,228 - INFO: Botão de aplicar-se pronto para ser clicado.
+2024-08-02 22:50:49,321 - INFO: Botão de aplicar-se clicado.
+2024-08-02 22:50:49,321 - INFO: Verificando se o elemento div.h3.mb-32 exite.
+2024-08-02 22:50:59,614 - INFO: O elemento div.h3.mb-32 não exite.
+
+2024-08-02 22:51:10,053 - INFO: Clicando no card 15/20 com nome 'Trabalhe De Casa Desenvolvedora/Engenheira React', 'iv' 9781900 e page 2.
+2024-08-02 22:51:10,084 - INFO: Botão de aplicar-se pronto para ser clicado.
+2024-08-02 22:51:10,210 - INFO: Botão de aplicar-se clicado.
+2024-08-02 22:51:10,210 - INFO: Verificando se o elemento div.h3.mb-32 exite.
+2024-08-02 22:51:20,490 - INFO: O elemento div.h3.mb-32 não exite.
+
+2024-08-02 22:51:30,670 - INFO: Clicando no card 16/20 com nome 'Trabalhe De Casa Desenvolvedora/Engenheira React', 'iv' 9781901 e page 2.
+2024-08-02 22:51:30,701 - INFO: Botão de aplicar-se pronto para ser clicado.
+2024-08-02 22:51:30,778 - INFO: Botão de aplicar-se clicado.
+2024-08-02 22:51:30,778 - INFO: Verificando se o elemento div.h3.mb-32 exite.
+2024-08-02 22:51:40,990 - INFO: O elemento div.h3.mb-32 não exite.
+
+2024-08-02 22:51:51,137 - INFO: Clicando no card 17/20 com nome 'Trabalhe De Casa Desenvolvedora/Engenheira React', 'iv' 9781902 e page 2.
+2024-08-02 22:51:51,168 - INFO: Botão de aplicar-se pronto para ser clicado.
+2024-08-02 22:51:51,246 - INFO: Botão de aplicar-se clicado.
+2024-08-02 22:51:51,247 - INFO: Verificando se o elemento div.h3.mb-32 exite.
+2024-08-02 22:52:01,448 - INFO: O elemento div.h3.mb-32 não exite.
+
+2024-08-02 22:52:11,625 - INFO: Clicando no card 18/20 com nome 'Trabalhe De Casa Pessoa Desenvolvedora React', 'iv' 9781905 e page 2.
+2024-08-02 22:52:11,656 - INFO: Botão de aplicar-se pronto para ser clicado.
+2024-08-02 22:52:11,721 - INFO: Botão de aplicar-se clicado.
+2024-08-02 22:52:11,726 - INFO: Verificando se o elemento div.h3.mb-32 exite.
+2024-08-02 22:52:21,932 - INFO: O elemento div.h3.mb-32 não exite.
+
+2024-08-02 22:52:32,073 - INFO: Clicando no card 19/20 com nome 'Trabalhe De Casa Pessoa Desenvolvedora React', 'iv' 9781906 e page 2.
+2024-08-02 22:52:32,104 - INFO: Botão de aplicar-se pronto para ser clicado.
+2024-08-02 22:52:32,181 - INFO: Botão de aplicar-se clicado.
+2024-08-02 22:52:32,185 - INFO: Verificando se o elemento div.h3.mb-32 exite.
+2024-08-02 22:52:43,802 - INFO: O elemento div.h3.mb-32 não exite.
+
+2024-08-02 22:52:45,333 - ERROR: Erro ao clicar no card 20. Outro elemento interceptou o clique.
+2024-08-02 22:52:52,832 - INFO: Driver finalizado.
+2024-08-02 23:06:39,284 - INFO: Driver configurado com sucesso.
+2024-08-02 23:06:39,302 - INFO: Aceitando cookies...
+2024-08-02 23:07:03,719 - INFO: Realizando login...
+2024-08-02 23:07:15,661 - INFO: Login realizado com sucesso.
+2024-08-02 23:07:15,664 - INFO: Clicando em todos os cards...
+2024-08-02 23:07:15,667 - INFO: Abrindo a página 1
+
+2024-08-02 23:07:18,669 - INFO: Abrindo a página 1
+
+
+2024-08-02 23:07:30,850 - INFO: Clicando no card 1/20 com nome 'Full Stack C# - Pleno', 'iv' 9805653 e page 1.
+2024-08-02 23:07:30,943 - INFO: Botão de aplicar-se pronto para ser clicado.
+2024-08-02 23:07:31,244 - INFO: Botão de aplicar-se clicado.
+2024-08-02 23:07:31,247 - INFO: Verificando se o elemento div.h3.mb-32 exite.
+2024-08-02 23:07:41,329 - INFO: O elemento div.h3.mb-32 não exite.
+
+2024-08-02 23:07:51,701 - INFO: Clicando no card 1/20 com nome 'Full Stack C# - Pleno', 'iv' 9805653 e page 1.
+2024-08-02 23:07:51,764 - INFO: Botão de aplicar-se pronto para ser clicado.
+2024-08-02 23:07:51,933 - INFO: Botão de aplicar-se clicado.
+2024-08-02 23:07:51,942 - INFO: Verificando se o elemento div.h3.mb-32 exite.
+2024-08-02 23:08:02,364 - INFO: O elemento div.h3.mb-32 não exite.
+
+2024-08-02 23:08:12,690 - INFO: Clicando no card 1/20 com nome 'Full Stack C# - Pleno', 'iv' 9805653 e page 1.
+2024-08-02 23:08:12,737 - INFO: Botão de aplicar-se pronto para ser clicado.
+2024-08-02 23:08:12,837 - INFO: Botão de aplicar-se clicado.
+2024-08-02 23:08:12,860 - INFO: Verificando se o elemento div.h3.mb-32 exite.
+2024-08-02 23:08:23,246 - INFO: O elemento div.h3.mb-32 não exite.
+
+2024-08-02 23:08:33,546 - INFO: Clicando no card 1/20 com nome 'Full Stack C# - Pleno', 'iv' 9805653 e page 1.
+2024-08-02 23:08:33,593 - INFO: Botão de aplicar-se pronto para ser clicado.
+2024-08-02 23:08:33,773 - INFO: Botão de aplicar-se clicado.
+2024-08-02 23:08:33,782 - INFO: Verificando se o elemento div.h3.mb-32 exite.
+2024-08-02 23:08:44,148 - INFO: O elemento div.h3.mb-32 não exite.
+
+2024-08-02 23:08:54,493 - INFO: Clicando no card 1/20 com nome 'Full Stack C# - Pleno', 'iv' 9805653 e page 1.
+2024-08-02 23:08:54,556 - INFO: Botão de aplicar-se pronto para ser clicado.
+2024-08-02 23:08:54,759 - INFO: Botão de aplicar-se clicado.
+2024-08-02 23:08:54,767 - INFO: Verificando se o elemento div.h3.mb-32 exite.
+2024-08-02 23:09:05,189 - INFO: O elemento div.h3.mb-32 não exite.
+
+2024-08-02 23:09:15,514 - INFO: Clicando no card 1/20 com nome 'Full Stack C# - Pleno', 'iv' 9805653 e page 1.
+2024-08-02 23:09:15,577 - INFO: Botão de aplicar-se pronto para ser clicado.
+2024-08-02 23:09:15,753 - INFO: Botão de aplicar-se clicado.
+2024-08-02 23:09:15,755 - INFO: Verificando se o elemento div.h3.mb-32 exite.
+2024-08-02 23:09:26,240 - INFO: O elemento div.h3.mb-32 não exite.
+
+2024-08-02 23:09:36,530 - INFO: Clicando no card 1/20 com nome 'Full Stack C# - Pleno', 'iv' 9805653 e page 1.
+2024-08-02 23:09:36,577 - INFO: Botão de aplicar-se pronto para ser clicado.
+2024-08-02 23:09:36,838 - INFO: Botão de aplicar-se clicado.
+2024-08-02 23:09:36,840 - INFO: Verificando se o elemento div.h3.mb-32 exite.
+2024-08-02 23:09:47,210 - INFO: O elemento div.h3.mb-32 não exite.
+
+2024-08-02 23:09:57,442 - INFO: Clicando no card 1/20 com nome 'Full Stack C# - Pleno', 'iv' 9805653 e page 1.
+2024-08-02 23:09:57,489 - INFO: Botão de aplicar-se pronto para ser clicado.
+2024-08-02 23:09:57,665 - INFO: Botão de aplicar-se clicado.
+2024-08-02 23:09:57,672 - INFO: Verificando se o elemento div.h3.mb-32 exite.
+2024-08-02 23:10:08,047 - INFO: O elemento div.h3.mb-32 não exite.
+
+2024-08-02 23:10:18,365 - INFO: Clicando no card 1/20 com nome 'Full Stack C# - Pleno', 'iv' 9805653 e page 1.
+2024-08-02 23:10:18,411 - INFO: Botão de aplicar-se pronto para ser clicado.
+2024-08-02 23:10:18,581 - INFO: Botão de aplicar-se clicado.
+2024-08-02 23:10:18,585 - INFO: Verificando se o elemento div.h3.mb-32 exite.
+2024-08-02 23:10:28,981 - INFO: O elemento div.h3.mb-32 não exite.
+
+2024-08-02 23:10:39,402 - INFO: Clicando no card 1/20 com nome 'Full Stack C# - Pleno', 'iv' 9805653 e page 1.
+2024-08-02 23:10:39,519 - INFO: Botão de aplicar-se pronto para ser clicado.
+2024-08-02 23:10:39,605 - INFO: Botão de aplicar-se clicado.
+2024-08-02 23:10:39,606 - INFO: Verificando se o elemento div.h3.mb-32 exite.
+2024-08-02 23:10:49,733 - INFO: O elemento div.h3.mb-32 não exite.
+
+2024-08-02 23:11:34,154 - INFO: Clicando no card 1/20 com nome 'Full Stack C# - Pleno', 'iv' 9805653 e page 1.
+2024-08-02 23:11:34,201 - INFO: Botão de aplicar-se pronto para ser clicado.
+2024-08-02 23:11:34,414 - INFO: Botão de aplicar-se clicado.
+2024-08-02 23:11:34,415 - INFO: Verificando se o elemento div.h3.mb-32 exite.
+2024-08-02 23:11:37,187 - WARNING: Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'ConnectionResetError(10054, 'Foi forçado o cancelamento de uma conexão existente pelo host remoto', None, 10054, None)': /session/b0d2b785215d0753bf44a339f18554e1
+2024-08-02 23:11:41,616 - WARNING: Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000001660AC8F470>: Failed to establish a new connection: [WinError 10061] Nenhuma conexão pôde ser feita porque a máquina de destino as recusou ativamente')': /session/b0d2b785215d0753bf44a339f18554e1
+2024-08-02 23:11:46,058 - WARNING: Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000001660AC8F590>: Failed to establish a new connection: [WinError 10061] Nenhuma conexão pôde ser feita porque a máquina de destino as recusou ativamente')': /session/b0d2b785215d0753bf44a339f18554e1
+2024-08-02 23:12:22,917 - INFO: Driver finalizado.
+2024-08-02 23:28:41,362 - INFO: Driver configurado com sucesso.
+2024-08-02 23:28:41,364 - INFO: Aceitando cookies...
+2024-08-02 23:28:59,608 - INFO: Realizando login...
+2024-08-02 23:29:10,129 - INFO: Login realizado com sucesso.
+2024-08-02 23:29:10,130 - INFO: Clicando em todos os cards...
+2024-08-02 23:29:10,130 - INFO: Abrindo a página 1
+
+2024-08-02 23:29:12,330 - INFO: Abrindo a página 1
+
+
+2024-08-02 23:29:23,639 - INFO: Clicando no card 1/20 com nome 'Full Stack C# - Pleno', 'iv' 9805653 e page 1.
+2024-08-02 23:29:23,691 - INFO: Botão de aplicar-se pronto para ser clicado.
+2024-08-02 23:29:23,816 - INFO: Botão de aplicar-se clicado.
+2024-08-02 23:29:23,816 - INFO: Verificando se o elemento div.h3.mb-32 exite.
+2024-08-02 23:29:34,117 - INFO: O elemento div.h3.mb-32 não exite.
+
+2024-08-02 23:29:44,416 - INFO: Clicando no card 2/20 com nome 'Software Tester Pleno - Home Office', 'iv' 9804337 e page 1.
+2024-08-02 23:29:44,463 - INFO: Botão de aplicar-se pronto para ser clicado.
+2024-08-02 23:29:44,556 - INFO: Botão de aplicar-se clicado.
+2024-08-02 23:29:44,558 - INFO: Verificando se o elemento div.h3.mb-32 exite.
+2024-08-02 23:29:45,109 - INFO: O elemento div.h3.mb-32 exite.
+2024-08-02 23:29:45,109 - INFO: Vaga requer respostas a perguntas adicionais.
+2024-08-02 23:29:45,112 - INFO: Pulando vaga.
+2024-08-02 23:29:45,153 - INFO: Card 2 reclicando para fechar as perguntas.
+2024-08-02 23:29:45,246 - INFO: Card 2 reclicado com sucesso.
+2024-08-02 23:29:45,246 - INFO: Verificando se o elemento btnSharedLooseChangesModalDiscardForm exite.
+2024-08-02 23:29:45,265 - INFO: O elemento btnSharedLooseChangesModalDiscardForm exite.
+2024-08-02 23:29:45,265 - INFO: Verificando se o elemento btnSharedLooseChangesModalDiscardForm exite.
+2024-08-02 23:29:45,301 - INFO: O elemento btnSharedLooseChangesModalDiscardForm exite.
+2024-08-02 23:29:55,446 - INFO: Botão do modal clicado. Modal fechado com sucesso.
+2024-08-02 23:29:55,447 - INFO: Verificando se o elemento btnSharedLooseChangesModalDiscardForm exite.
+2024-08-02 23:30:05,721 - INFO: O elemento btnSharedLooseChangesModalDiscardForm não exite.
+
+2024-08-02 23:30:15,955 - INFO: Clicando no card 3/20 com nome 'Analista De Sistemas - Desenvolvedor Delphi', 'iv' 6566793 e page 1.
+2024-08-02 23:30:16,002 - INFO: Botão de aplicar-se pronto para ser clicado.
+2024-08-02 23:30:16,105 - INFO: Botão de aplicar-se clicado.
+2024-08-02 23:30:16,145 - INFO: Verificando se o elemento div.h3.mb-32 exite.
+2024-08-02 23:30:26,412 - INFO: O elemento div.h3.mb-32 não exite.
+
+2024-08-02 23:30:36,620 - INFO: Clicando no card 4/20 com nome 'Analista Técnico Funcional Sênior', 'iv' 9799747 e page 1.
+2024-08-02 23:30:36,651 - INFO: Botão de aplicar-se pronto para ser clicado.
+2024-08-02 23:30:36,735 - INFO: Botão de aplicar-se clicado.
+2024-08-02 23:30:36,736 - INFO: Verificando se o elemento div.h3.mb-32 exite.
+2024-08-02 23:30:47,077 - INFO: O elemento div.h3.mb-32 não exite.
+
+2024-08-02 23:30:57,355 - INFO: Clicando no card 5/20 com nome 'Analista De Modelagem III_Externo | Almaviva Fortaleza', 'iv' 9798357 e page 1.
+2024-08-02 23:30:57,386 - INFO: Botão de aplicar-se pronto para ser clicado.
+2024-08-02 23:30:57,477 - INFO: Botão de aplicar-se clicado.
+2024-08-02 23:30:57,482 - INFO: Verificando se o elemento div.h3.mb-32 exite.
+2024-08-02 23:31:07,763 - INFO: O elemento div.h3.mb-32 não exite.
+
+2024-08-02 23:31:18,003 - INFO: Clicando no card 6/20 com nome 'GRUPO LINS FERRÃO | Analista De Sistemas SR', 'iv' 9687061 e page 1.
+2024-08-02 23:31:18,034 - INFO: Botão de aplicar-se pronto para ser clicado.
+2024-08-02 23:31:18,127 - INFO: Botão de aplicar-se clicado.
+2024-08-02 23:31:18,133 - INFO: Verificando se o elemento div.h3.mb-32 exite.
+2024-08-02 23:31:18,670 - INFO: O elemento div.h3.mb-32 exite.
+2024-08-02 23:31:18,671 - INFO: Vaga requer respostas a perguntas adicionais.
+2024-08-02 23:31:18,672 - INFO: Pulando vaga.
+2024-08-02 23:31:18,710 - INFO: Card 6 reclicando para fechar as perguntas.
+2024-08-02 23:31:18,808 - INFO: Card 6 reclicado com sucesso.
+2024-08-02 23:31:18,813 - INFO: Verificando se o elemento btnSharedLooseChangesModalDiscardForm exite.
+2024-08-02 23:31:18,830 - INFO: O elemento btnSharedLooseChangesModalDiscardForm exite.
+2024-08-02 23:31:18,840 - INFO: Verificando se o elemento btnSharedLooseChangesModalDiscardForm exite.
+2024-08-02 23:31:18,847 - INFO: O elemento btnSharedLooseChangesModalDiscardForm exite.
+2024-08-02 23:31:28,964 - INFO: Botão do modal clicado. Modal fechado com sucesso.
+2024-08-02 23:31:28,965 - INFO: Verificando se o elemento btnSharedLooseChangesModalDiscardForm exite.
+2024-08-02 23:31:39,244 - INFO: O elemento btnSharedLooseChangesModalDiscardForm não exite.
+
+2024-08-02 23:31:49,442 - INFO: Clicando no card 7/20 com nome '01450/2024 - Analista De Infraestrutura De TI - Júnior', 'iv' 9791046 e page 1.
+2024-08-02 23:31:49,473 - INFO: Botão de aplicar-se pronto para ser clicado.
+2024-08-02 23:31:49,566 - INFO: Botão de aplicar-se clicado.
+2024-08-02 23:31:49,566 - INFO: Verificando se o elemento div.h3.mb-32 exite.
+2024-08-02 23:31:50,102 - INFO: O elemento div.h3.mb-32 exite.
+2024-08-02 23:31:50,102 - INFO: Vaga requer respostas a perguntas adicionais.
+2024-08-02 23:31:50,104 - INFO: Pulando vaga.
+2024-08-02 23:31:50,145 - INFO: Card 7 reclicando para fechar as perguntas.
+2024-08-02 23:31:50,230 - INFO: Card 7 reclicado com sucesso.
+2024-08-02 23:31:50,238 - INFO: Verificando se o elemento btnSharedLooseChangesModalDiscardForm exite.
+2024-08-02 23:31:50,256 - INFO: O elemento btnSharedLooseChangesModalDiscardForm exite.
+2024-08-02 23:31:50,256 - INFO: Verificando se o elemento btnSharedLooseChangesModalDiscardForm exite.
+2024-08-02 23:31:50,273 - INFO: O elemento btnSharedLooseChangesModalDiscardForm exite.
+2024-08-02 23:32:00,401 - INFO: Botão do modal clicado. Modal fechado com sucesso.
+2024-08-02 23:32:00,402 - INFO: Verificando se o elemento btnSharedLooseChangesModalDiscardForm exite.
+2024-08-02 23:32:10,670 - INFO: O elemento btnSharedLooseChangesModalDiscardForm não exite.
+
+2024-08-02 23:32:20,930 - INFO: Clicando no card 8/20 com nome 'Analista SAP MM', 'iv' 9786048 e page 1.
+2024-08-02 23:32:20,987 - INFO: Botão de aplicar-se pronto para ser clicado.
+2024-08-02 23:32:21,078 - INFO: Botão de aplicar-se clicado.
+2024-08-02 23:32:21,084 - INFO: Verificando se o elemento div.h3.mb-32 exite.
+2024-08-02 23:32:31,349 - INFO: O elemento div.h3.mb-32 não exite.
+
+2024-08-02 23:32:41,565 - INFO: Clicando no card 9/20 com nome 'Analista Da Segurança Da Informação - Porto Alegre', 'iv' 9784525 e page 1.
+2024-08-02 23:32:41,612 - INFO: Botão de aplicar-se pronto para ser clicado.
+2024-08-02 23:32:41,714 - INFO: Botão de aplicar-se clicado.
+2024-08-02 23:32:41,719 - INFO: Verificando se o elemento div.h3.mb-32 exite.
+2024-08-02 23:32:42,256 - INFO: O elemento div.h3.mb-32 exite.
+2024-08-02 23:32:42,257 - INFO: Vaga requer respostas a perguntas adicionais.
+2024-08-02 23:32:42,258 - INFO: Pulando vaga.
+2024-08-02 23:32:42,296 - INFO: Card 9 reclicando para fechar as perguntas.
+2024-08-02 23:32:42,376 - INFO: Card 9 reclicado com sucesso.
+2024-08-02 23:32:42,376 - INFO: Verificando se o elemento btnSharedLooseChangesModalDiscardForm exite.
+2024-08-02 23:32:42,388 - INFO: O elemento btnSharedLooseChangesModalDiscardForm exite.
+2024-08-02 23:32:42,388 - INFO: Verificando se o elemento btnSharedLooseChangesModalDiscardForm exite.
+2024-08-02 23:32:42,420 - INFO: O elemento btnSharedLooseChangesModalDiscardForm exite.
+2024-08-02 23:32:52,518 - INFO: Botão do modal clicado. Modal fechado com sucesso.
+2024-08-02 23:32:52,519 - INFO: Verificando se o elemento btnSharedLooseChangesModalDiscardForm exite.
+2024-08-02 23:33:02,807 - INFO: O elemento btnSharedLooseChangesModalDiscardForm não exite.
+
+2024-08-02 23:33:13,001 - INFO: Clicando no card 10/20 com nome 'DESENVOLVEDOR FRONT- END', 'iv' 9783690 e page 1.
+2024-08-02 23:33:13,048 - INFO: Botão de aplicar-se pronto para ser clicado.
+2024-08-02 23:33:13,139 - INFO: Botão de aplicar-se clicado.
+2024-08-02 23:33:13,140 - INFO: Verificando se o elemento div.h3.mb-32 exite.
+2024-08-02 23:33:23,468 - INFO: O elemento div.h3.mb-32 não exite.
+
+2024-08-02 23:33:33,674 - INFO: Clicando no card 11/20 com nome 'Analista De E-Commerce', 'iv' 9783269 e page 1.
+2024-08-02 23:33:33,705 - INFO: Botão de aplicar-se pronto para ser clicado.
+2024-08-02 23:33:33,792 - INFO: Botão de aplicar-se clicado.
+2024-08-02 23:33:33,798 - INFO: Verificando se o elemento div.h3.mb-32 exite.
+2024-08-02 23:33:34,337 - INFO: O elemento div.h3.mb-32 exite.
+2024-08-02 23:33:34,338 - INFO: Vaga requer respostas a perguntas adicionais.
+2024-08-02 23:33:34,339 - INFO: Pulando vaga.
+2024-08-02 23:33:34,380 - INFO: Card 11 reclicando para fechar as perguntas.
+2024-08-02 23:33:34,484 - INFO: Card 11 reclicado com sucesso.
+2024-08-02 23:33:34,484 - INFO: Verificando se o elemento btnSharedLooseChangesModalDiscardForm exite.
+2024-08-02 23:33:34,500 - INFO: O elemento btnSharedLooseChangesModalDiscardForm exite.
+2024-08-02 23:33:34,500 - INFO: Verificando se o elemento btnSharedLooseChangesModalDiscardForm exite.
+2024-08-02 23:33:34,530 - INFO: O elemento btnSharedLooseChangesModalDiscardForm exite.
+2024-08-02 23:33:44,630 - INFO: Botão do modal clicado. Modal fechado com sucesso.
+2024-08-02 23:33:44,631 - INFO: Verificando se o elemento btnSharedLooseChangesModalDiscardForm exite.
+2024-08-02 23:33:54,900 - INFO: O elemento btnSharedLooseChangesModalDiscardForm não exite.
+
+2024-08-02 23:34:05,154 - INFO: Clicando no card 12/20 com nome 'Analista De Middleware Sênior', 'iv' 9783100 e page 1.
+2024-08-02 23:34:05,185 - INFO: Botão de aplicar-se pronto para ser clicado.
+2024-08-02 23:34:05,276 - INFO: Botão de aplicar-se clicado.
+2024-08-02 23:34:05,276 - INFO: Verificando se o elemento div.h3.mb-32 exite.
+2024-08-02 23:34:15,558 - INFO: O elemento div.h3.mb-32 não exite.
+
+2024-08-02 23:34:25,750 - INFO: Clicando no card 13/20 com nome 'Work From Home IT Security Analyst', 'iv' 9781946 e page 1.
+2024-08-02 23:34:25,782 - INFO: Botão de aplicar-se pronto para ser clicado.
+2024-08-02 23:34:25,875 - INFO: Botão de aplicar-se clicado.
+2024-08-02 23:34:25,884 - INFO: Verificando se o elemento div.h3.mb-32 exite.
+2024-08-02 23:34:36,275 - INFO: O elemento div.h3.mb-32 não exite.
+
+2024-08-02 23:34:46,529 - INFO: Clicando no card 14/20 com nome 'Work From Home Front-End QA Analyst', 'iv' 9781944 e page 1.
+2024-08-02 23:34:46,560 - INFO: Botão de aplicar-se pronto para ser clicado.
+2024-08-02 23:34:46,653 - INFO: Botão de aplicar-se clicado.
+2024-08-02 23:34:46,655 - INFO: Verificando se o elemento div.h3.mb-32 exite.
+2024-08-02 23:34:56,932 - INFO: O elemento div.h3.mb-32 não exite.
+
+2024-08-02 23:35:07,135 - INFO: Clicando no card 15/20 com nome 'Work From Home IT Security Analyst', 'iv' 9781945 e page 1.
+2024-08-02 23:35:07,166 - INFO: Botão de aplicar-se pronto para ser clicado.
+2024-08-02 23:35:07,260 - INFO: Botão de aplicar-se clicado.
+2024-08-02 23:35:07,265 - INFO: Verificando se o elemento div.h3.mb-32 exite.
+2024-08-02 23:35:17,540 - INFO: O elemento div.h3.mb-32 não exite.
+
+2024-08-02 23:35:27,726 - INFO: Clicando no card 16/20 com nome 'Work From Home IT Security Analyst', 'iv' 9781947 e page 1.
+2024-08-02 23:35:27,773 - INFO: Botão de aplicar-se pronto para ser clicado.
+2024-08-02 23:35:27,868 - INFO: Botão de aplicar-se clicado.
+2024-08-02 23:35:27,874 - INFO: Verificando se o elemento div.h3.mb-32 exite.
+2024-08-02 23:35:38,143 - INFO: O elemento div.h3.mb-32 não exite.
+
+2024-08-02 23:35:48,324 - INFO: Clicando no card 17/20 com nome 'Trabalhe De Casa Pessoa Desenvolvedora Python', 'iv' 9781908 e page 1.
+2024-08-02 23:35:48,355 - INFO: Botão de aplicar-se pronto para ser clicado.
+2024-08-02 23:35:48,515 - INFO: Botão de aplicar-se clicado.
+2024-08-02 23:35:48,526 - INFO: Verificando se o elemento div.h3.mb-32 exite.
+2024-08-02 23:35:58,838 - INFO: O elemento div.h3.mb-32 não exite.
+
+2024-08-02 23:36:09,028 - INFO: Clicando no card 18/20 com nome 'Trabalhe De Casa Pessoa Desenvolvedora Python', 'iv' 9781909 e page 1.
+2024-08-02 23:36:09,059 - INFO: Botão de aplicar-se pronto para ser clicado.
+2024-08-02 23:36:09,141 - INFO: Botão de aplicar-se clicado.
+2024-08-02 23:36:09,145 - INFO: Verificando se o elemento div.h3.mb-32 exite.
+2024-08-02 23:36:19,418 - INFO: O elemento div.h3.mb-32 não exite.
+
+2024-08-02 23:36:29,617 - INFO: Clicando no card 19/20 com nome 'Work From Home Work From Home .NET + React Developer', 'iv' 9781920 e page 1.
+2024-08-02 23:36:29,648 - INFO: Botão de aplicar-se pronto para ser clicado.
+2024-08-02 23:36:29,867 - INFO: Botão de aplicar-se clicado.
+2024-08-02 23:36:29,875 - INFO: Verificando se o elemento div.h3.mb-32 exite.
+2024-08-02 23:36:40,147 - INFO: O elemento div.h3.mb-32 não exite.
+
+2024-08-02 23:36:50,330 - INFO: Clicando no card 20/20 com nome 'Work From Home Work From Home .NET + React Developer', 'iv' 9781922 e page 1.
+2024-08-02 23:36:50,361 - INFO: Botão de aplicar-se pronto para ser clicado.
+2024-08-02 23:36:50,457 - INFO: Botão de aplicar-se clicado.
+2024-08-02 23:36:50,461 - INFO: Verificando se o elemento div.h3.mb-32 exite.
+2024-08-02 23:37:00,739 - INFO: O elemento div.h3.mb-32 não exite.
+2024-08-02 23:37:00,739 - INFO: Abrindo a página 2
+
+
+2024-08-02 23:37:12,521 - INFO: Clicando no card 1/20 com nome 'Trabalhe De Casa Desenvolvedora/Engenheira Java', 'iv' 9781913 e page 2.
+2024-08-02 23:37:12,552 - INFO: Botão de aplicar-se pronto para ser clicado.
+2024-08-02 23:37:12,651 - INFO: Botão de aplicar-se clicado.
+2024-08-02 23:37:12,652 - INFO: Verificando se o elemento div.h3.mb-32 exite.
+2024-08-02 23:37:22,942 - INFO: O elemento div.h3.mb-32 não exite.
+
+2024-08-02 23:37:33,133 - INFO: Clicando no card 2/20 com nome 'Trabalhe De Casa Desenvolvedora/Engenheira Java', 'iv' 9781915 e page 2.
+2024-08-02 23:37:33,180 - INFO: Botão de aplicar-se pronto para ser clicado.
+2024-08-02 23:37:33,287 - INFO: Botão de aplicar-se clicado.
+2024-08-02 23:37:33,289 - INFO: Verificando se o elemento div.h3.mb-32 exite.
+2024-08-02 23:37:43,586 - INFO: O elemento div.h3.mb-32 não exite.
+
+2024-08-02 23:37:53,780 - INFO: Clicando no card 3/20 com nome 'Work From Home Work From Home .NET + React Developer', 'iv' 9781916 e page 2.
+2024-08-02 23:37:53,826 - INFO: Botão de aplicar-se pronto para ser clicado.
+2024-08-02 23:37:53,980 - INFO: Botão de aplicar-se clicado.
+2024-08-02 23:37:54,059 - INFO: Verificando se o elemento div.h3.mb-32 exite.
+2024-08-02 23:38:04,342 - INFO: O elemento div.h3.mb-32 não exite.
+
+2024-08-02 23:38:14,568 - INFO: Clicando no card 4/20 com nome 'Work From Home Work From Home .NET + React Developer', 'iv' 9781921 e page 2.
+2024-08-02 23:38:14,599 - INFO: Botão de aplicar-se pronto para ser clicado.
+2024-08-02 23:38:14,686 - INFO: Botão de aplicar-se clicado.
+2024-08-02 23:38:14,690 - INFO: Verificando se o elemento div.h3.mb-32 exite.
+2024-08-02 23:38:24,954 - INFO: O elemento div.h3.mb-32 não exite.
+
+2024-08-02 23:38:35,135 - INFO: Clicando no card 5/20 com nome 'Work From Home Work From Home .NET + React Developer', 'iv' 9781922 e page 2.
+2024-08-02 23:38:35,166 - INFO: Botão de aplicar-se pronto para ser clicado.
+2024-08-02 23:38:35,253 - INFO: Botão de aplicar-se clicado.
+2024-08-02 23:38:35,276 - INFO: Verificando se o elemento div.h3.mb-32 exite.
+2024-08-02 23:38:45,540 - INFO: O elemento div.h3.mb-32 não exite.
+
+2024-08-02 23:38:55,755 - INFO: Clicando no card 6/20 com nome 'Work From Home Devops Engineer', 'iv' 9781926 e page 2.
+2024-08-02 23:38:55,787 - INFO: Botão de aplicar-se pronto para ser clicado.
+2024-08-02 23:38:55,878 - INFO: Botão de aplicar-se clicado.
+2024-08-02 23:38:55,878 - INFO: Verificando se o elemento div.h3.mb-32 exite.
+2024-08-02 23:39:06,147 - INFO: O elemento div.h3.mb-32 não exite.
+
+2024-08-02 23:39:16,357 - INFO: Clicando no card 7/20 com nome 'Work From Home Front-End QA Analyst', 'iv' 9781939 e page 2.
+2024-08-02 23:39:16,388 - INFO: Botão de aplicar-se pronto para ser clicado.
+2024-08-02 23:39:16,470 - INFO: Botão de aplicar-se clicado.
+2024-08-02 23:39:16,470 - INFO: Verificando se o elemento div.h3.mb-32 exite.
+2024-08-02 23:39:26,744 - INFO: O elemento div.h3.mb-32 não exite.
+
+2024-08-02 23:39:36,939 - INFO: Clicando no card 8/20 com nome 'Work From Home Front-End QA Analyst', 'iv' 9781940 e page 2.
+2024-08-02 23:39:36,970 - INFO: Botão de aplicar-se pronto para ser clicado.
+2024-08-02 23:39:37,065 - INFO: Botão de aplicar-se clicado.
+2024-08-02 23:39:37,065 - INFO: Verificando se o elemento div.h3.mb-32 exite.
+2024-08-02 23:39:47,345 - INFO: O elemento div.h3.mb-32 não exite.
+
+2024-08-02 23:39:57,541 - INFO: Clicando no card 9/20 com nome 'Work From Home Front-End QA Analyst', 'iv' 9781941 e page 2.
+2024-08-02 23:39:57,572 - INFO: Botão de aplicar-se pronto para ser clicado.
+2024-08-02 23:39:57,658 - INFO: Botão de aplicar-se clicado.
+2024-08-02 23:39:57,664 - INFO: Verificando se o elemento div.h3.mb-32 exite.
+2024-08-02 23:40:07,926 - INFO: O elemento div.h3.mb-32 não exite.
+
+2024-08-02 23:40:18,125 - INFO: Clicando no card 10/20 com nome 'Work From Home Front-End QA Analyst', 'iv' 9781942 e page 2.
+2024-08-02 23:40:18,171 - INFO: Botão de aplicar-se pronto para ser clicado.
+2024-08-02 23:40:18,250 - INFO: Botão de aplicar-se clicado.
+2024-08-02 23:40:18,256 - INFO: Verificando se o elemento div.h3.mb-32 exite.
+2024-08-02 23:40:28,512 - INFO: O elemento div.h3.mb-32 não exite.
+
+2024-08-02 23:40:38,688 - INFO: Clicando no card 11/20 com nome 'Trabalhe De Casa Pessoa Desenvolvedora React', 'iv' 9781904 e page 2.
+2024-08-02 23:40:38,719 - INFO: Botão de aplicar-se pronto para ser clicado.
+2024-08-02 23:40:38,800 - INFO: Botão de aplicar-se clicado.
+2024-08-02 23:40:38,802 - INFO: Verificando se o elemento div.h3.mb-32 exite.
+2024-08-02 23:40:49,075 - INFO: O elemento div.h3.mb-32 não exite.
+
+2024-08-02 23:40:59,289 - INFO: Clicando no card 12/20 com nome 'Work From Home Work From Home .NET + React Developer', 'iv' 9781919 e page 2.
+2024-08-02 23:40:59,320 - INFO: Botão de aplicar-se pronto para ser clicado.
+2024-08-02 23:40:59,407 - INFO: Botão de aplicar-se clicado.
+2024-08-02 23:40:59,410 - INFO: Verificando se o elemento div.h3.mb-32 exite.
+2024-08-02 23:41:09,686 - INFO: O elemento div.h3.mb-32 não exite.
+
+2024-08-02 23:41:19,881 - INFO: Clicando no card 13/20 com nome 'Work From Home Work From Home .NET + React Developer', 'iv' 9781920 e page 2.
+2024-08-02 23:41:19,912 - INFO: Botão de aplicar-se pronto para ser clicado.
+2024-08-02 23:41:19,998 - INFO: Botão de aplicar-se clicado.
+2024-08-02 23:41:20,002 - INFO: Verificando se o elemento div.h3.mb-32 exite.
+2024-08-02 23:41:30,269 - INFO: O elemento div.h3.mb-32 não exite.
+
+2024-08-02 23:41:40,482 - INFO: Clicando no card 14/20 com nome 'Work From Home Devops Engineer', 'iv' 9781928 e page 2.
+2024-08-02 23:41:40,513 - INFO: Botão de aplicar-se pronto para ser clicado.
+2024-08-02 23:41:40,605 - INFO: Botão de aplicar-se clicado.
+2024-08-02 23:41:40,612 - INFO: Verificando se o elemento div.h3.mb-32 exite.
+2024-08-02 23:41:50,891 - INFO: O elemento div.h3.mb-32 não exite.
+
+2024-08-02 23:42:01,086 - INFO: Clicando no card 15/20 com nome 'Trabalhe De Casa Desenvolvedora/Engenheira React', 'iv' 9781900 e page 2.
+2024-08-02 23:42:01,117 - INFO: Botão de aplicar-se pronto para ser clicado.
+2024-08-02 23:42:01,219 - INFO: Botão de aplicar-se clicado.
+2024-08-02 23:42:01,220 - INFO: Verificando se o elemento div.h3.mb-32 exite.
+2024-08-02 23:42:11,482 - INFO: O elemento div.h3.mb-32 não exite.
+
+2024-08-02 23:42:21,724 - INFO: Clicando no card 16/20 com nome 'Trabalhe De Casa Desenvolvedora/Engenheira React', 'iv' 9781901 e page 2.
+2024-08-02 23:42:21,756 - INFO: Botão de aplicar-se pronto para ser clicado.
+2024-08-02 23:42:21,872 - INFO: Botão de aplicar-se clicado.
+2024-08-02 23:42:21,872 - INFO: Verificando se o elemento div.h3.mb-32 exite.
+2024-08-02 23:42:32,143 - INFO: O elemento div.h3.mb-32 não exite.
+
+2024-08-02 23:42:42,344 - INFO: Clicando no card 17/20 com nome 'Trabalhe De Casa Desenvolvedora/Engenheira React', 'iv' 9781902 e page 2.
+2024-08-02 23:42:42,391 - INFO: Botão de aplicar-se pronto para ser clicado.
+2024-08-02 23:42:42,492 - INFO: Botão de aplicar-se clicado.
+2024-08-02 23:42:42,493 - INFO: Verificando se o elemento div.h3.mb-32 exite.
+2024-08-02 23:42:52,757 - INFO: O elemento div.h3.mb-32 não exite.
+
+2024-08-02 23:43:02,966 - INFO: Clicando no card 18/20 com nome 'Trabalhe De Casa Pessoa Desenvolvedora React', 'iv' 9781905 e page 2.
+2024-08-02 23:43:03,017 - INFO: Botão de aplicar-se pronto para ser clicado.
+2024-08-02 23:43:03,108 - INFO: Botão de aplicar-se clicado.
+2024-08-02 23:43:03,109 - INFO: Verificando se o elemento div.h3.mb-32 exite.
+2024-08-02 23:43:13,378 - INFO: O elemento div.h3.mb-32 não exite.
+
+2024-08-02 23:43:23,580 - INFO: Clicando no card 19/20 com nome 'Trabalhe De Casa Pessoa Desenvolvedora React', 'iv' 9781906 e page 2.
+2024-08-02 23:43:23,627 - INFO: Botão de aplicar-se pronto para ser clicado.
+2024-08-02 23:43:23,733 - INFO: Botão de aplicar-se clicado.
+2024-08-02 23:43:23,733 - INFO: Verificando se o elemento div.h3.mb-32 exite.
+2024-08-02 23:43:34,028 - INFO: O elemento div.h3.mb-32 não exite.
+
+2024-08-02 23:43:44,210 - INFO: Clicando no card 20/20 com nome 'Trabalhe De Casa Pessoa Desenvolvedora Python', 'iv' 9781907 e page 2.
+2024-08-02 23:43:44,241 - INFO: Botão de aplicar-se pronto para ser clicado.
+2024-08-02 23:43:44,341 - INFO: Botão de aplicar-se clicado.
+2024-08-02 23:43:44,351 - INFO: Verificando se o elemento div.h3.mb-32 exite.
+2024-08-02 23:43:54,618 - INFO: O elemento div.h3.mb-32 não exite.
+2024-08-02 23:43:54,618 - INFO: Abrindo a página 3
+
+
+2024-08-02 23:44:06,512 - INFO: Clicando no card 1/20 com nome 'Work From Home Devops Engineer', 'iv' 9781927 e page 3.
+2024-08-02 23:44:06,559 - INFO: Botão de aplicar-se pronto para ser clicado.
+2024-08-02 23:44:06,642 - INFO: Botão de aplicar-se clicado.
+2024-08-02 23:44:06,651 - INFO: Verificando se o elemento div.h3.mb-32 exite.
+2024-08-02 23:44:16,933 - INFO: O elemento div.h3.mb-32 não exite.
+
+2024-08-02 23:44:27,121 - INFO: Clicando no card 2/20 com nome 'Work From Home Devops Engineer', 'iv' 9781929 e page 3.
+2024-08-02 23:44:27,152 - INFO: Botão de aplicar-se pronto para ser clicado.
+2024-08-02 23:44:27,254 - INFO: Botão de aplicar-se clicado.
+2024-08-02 23:44:27,254 - INFO: Verificando se o elemento div.h3.mb-32 exite.
+2024-08-02 23:44:37,538 - INFO: O elemento div.h3.mb-32 não exite.
+
+2024-08-02 23:44:47,733 - INFO: Clicando no card 3/20 com nome 'Work From Home Devops Engineer', 'iv' 9781930 e page 3.
+2024-08-02 23:44:47,765 - INFO: Botão de aplicar-se pronto para ser clicado.
+2024-08-02 23:44:47,858 - INFO: Botão de aplicar-se clicado.
+2024-08-02 23:44:47,858 - INFO: Verificando se o elemento div.h3.mb-32 exite.
+2024-08-02 23:44:58,144 - INFO: O elemento div.h3.mb-32 não exite.
+
+2024-08-02 23:45:08,358 - INFO: Clicando no card 4/20 com nome 'Work From Home Devops Engineer', 'iv' 9781931 e page 3.
+2024-08-02 23:45:08,389 - INFO: Botão de aplicar-se pronto para ser clicado.
+2024-08-02 23:45:08,476 - INFO: Botão de aplicar-se clicado.
+2024-08-02 23:45:08,477 - INFO: Verificando se o elemento div.h3.mb-32 exite.
+2024-08-02 23:45:18,777 - INFO: O elemento div.h3.mb-32 não exite.
+
+2024-08-02 23:45:28,993 - INFO: Clicando no card 5/20 com nome 'Trabalhe De Casa Desenvolvedora/Engenheira Java', 'iv' 9781914 e page 3.
+2024-08-02 23:45:29,024 - INFO: Botão de aplicar-se pronto para ser clicado.
+2024-08-02 23:45:29,114 - INFO: Botão de aplicar-se clicado.
+2024-08-02 23:45:29,116 - INFO: Verificando se o elemento div.h3.mb-32 exite.
+2024-08-02 23:45:39,402 - INFO: O elemento div.h3.mb-32 não exite.
+
+2024-08-02 23:45:49,586 - INFO: Clicando no card 6/20 com nome 'Work From Home Work From Home .NET + React Developer', 'iv' 9781918 e page 3.
+2024-08-02 23:45:49,618 - INFO: Botão de aplicar-se pronto para ser clicado.
+2024-08-02 23:45:49,711 - INFO: Botão de aplicar-se clicado.
+2024-08-02 23:45:49,713 - INFO: Verificando se o elemento div.h3.mb-32 exite.
+2024-08-02 23:46:00,009 - INFO: O elemento div.h3.mb-32 não exite.
+
+2024-08-02 23:46:10,219 - INFO: Clicando no card 7/20 com nome 'Work From Home Devops Engineer', 'iv' 9781932 e page 3.
+2024-08-02 23:46:10,251 - INFO: Botão de aplicar-se pronto para ser clicado.
+2024-08-02 23:46:10,338 - INFO: Botão de aplicar-se clicado.
+2024-08-02 23:46:10,338 - INFO: Verificando se o elemento div.h3.mb-32 exite.
+2024-08-02 23:46:20,602 - INFO: O elemento div.h3.mb-32 não exite.
+
+2024-08-02 23:46:30,831 - INFO: Clicando no card 8/20 com nome 'Work From Home Front-End QA Analyst', 'iv' 9781943 e page 3.
+2024-08-02 23:46:30,862 - INFO: Botão de aplicar-se pronto para ser clicado.
+2024-08-02 23:46:30,964 - INFO: Botão de aplicar-se clicado.
+2024-08-02 23:46:30,979 - INFO: Verificando se o elemento div.h3.mb-32 exite.
+2024-08-02 23:46:41,292 - INFO: O elemento div.h3.mb-32 não exite.
+2024-08-02 23:50:53,302 - ERROR: Erro de tempo ao processar o card 9.
+2024-08-02 23:51:47,174 - INFO: Driver finalizado.
+2024-08-02 23:57:14,195 - INFO: Driver configurado com sucesso.
+2024-08-02 23:57:14,236 - INFO: Aceitando cookies...
+2024-08-02 23:57:31,495 - INFO: Realizando login...
+2024-08-02 23:57:41,566 - INFO: Login realizado com sucesso.
+2024-08-02 23:57:41,567 - INFO: Clicando em todos os cards...
+2024-08-02 23:57:41,569 - INFO: Abrindo a página 1
+
+2024-08-02 23:57:43,666 - INFO: Abrindo a página 1
+
+
+2024-08-02 23:57:54,666 - INFO: Clicando no card 1/20 com nome 'Full Stack C# - Pleno', 'iv' 9805653 e page 1.
+2024-08-02 23:57:54,697 - INFO: Botão de aplicar-se pronto para ser clicado.
+2024-08-02 23:57:54,780 - INFO: Botão de aplicar-se clicado.
+2024-08-02 23:57:54,782 - INFO: Verificando se o elemento div.h3.mb-32 exite.
+2024-08-02 23:58:05,008 - INFO: O elemento div.h3.mb-32 não exite.
+
+2024-08-02 23:58:15,159 - INFO: Clicando no card 2/20 com nome 'Software Tester Pleno - Home Office', 'iv' 9804337 e page 1.
+2024-08-02 23:58:15,191 - INFO: Botão de aplicar-se pronto para ser clicado.
+2024-08-02 23:58:15,255 - INFO: Botão de aplicar-se clicado.
+2024-08-02 23:58:15,255 - INFO: Verificando se o elemento div.h3.mb-32 exite.
+2024-08-02 23:58:15,780 - INFO: O elemento div.h3.mb-32 exite.
+2024-08-02 23:58:15,780 - INFO: Vaga requer respostas a perguntas adicionais.
+2024-08-02 23:58:15,782 - INFO: Pulando vaga.
+2024-08-02 23:58:15,811 - INFO: Card 2 reclicando para fechar as perguntas.
+2024-08-02 23:58:15,867 - INFO: Card 2 reclicado com sucesso.
+2024-08-02 23:58:15,867 - INFO: Verificando se o elemento btnSharedLooseChangesModalDiscardForm exite.
+2024-08-02 23:58:15,882 - INFO: O elemento btnSharedLooseChangesModalDiscardForm exite.
+2024-08-02 23:58:15,882 - INFO: Verificando se o elemento btnSharedLooseChangesModalDiscardForm exite.
+2024-08-02 23:58:15,895 - INFO: O elemento btnSharedLooseChangesModalDiscardForm exite.
+2024-08-02 23:58:25,986 - INFO: Botão do modal clicado. Modal fechado com sucesso.
+2024-08-02 23:58:25,986 - INFO: Verificando se o elemento btnSharedLooseChangesModalDiscardForm exite.
+2024-08-02 23:58:36,204 - INFO: O elemento btnSharedLooseChangesModalDiscardForm não exite.
+
+2024-08-02 23:58:46,394 - INFO: Clicando no card 3/20 com nome 'Analista De Sistemas - Desenvolvedor Delphi', 'iv' 6566793 e page 1.
+2024-08-02 23:58:46,425 - INFO: Botão de aplicar-se pronto para ser clicado.
+2024-08-02 23:58:46,574 - INFO: Botão de aplicar-se clicado.
+2024-08-02 23:58:46,574 - INFO: Verificando se o elemento div.h3.mb-32 exite.
+2024-08-02 23:58:56,799 - INFO: O elemento div.h3.mb-32 não exite.
+
+2024-08-02 23:59:06,953 - INFO: Clicando no card 4/20 com nome 'Analista Técnico Funcional Sênior', 'iv' 9799747 e page 1.
+2024-08-02 23:59:06,984 - INFO: Botão de aplicar-se pronto para ser clicado.
+2024-08-02 23:59:07,050 - INFO: Botão de aplicar-se clicado.
+2024-08-02 23:59:07,050 - INFO: Verificando se o elemento div.h3.mb-32 exite.
+2024-08-02 23:59:17,302 - INFO: O elemento div.h3.mb-32 não exite.
+
+2024-08-02 23:59:27,445 - INFO: Clicando no card 5/20 com nome 'Analista De Modelagem III_Externo | Almaviva Fortaleza', 'iv' 9798357 e page 1.
+2024-08-02 23:59:27,476 - INFO: Botão de aplicar-se pronto para ser clicado.
+2024-08-02 23:59:27,539 - INFO: Botão de aplicar-se clicado.
+2024-08-02 23:59:27,540 - INFO: Verificando se o elemento div.h3.mb-32 exite.
+2024-08-02 23:59:37,762 - INFO: O elemento div.h3.mb-32 não exite.
+
+2024-08-02 23:59:47,918 - INFO: Clicando no card 6/20 com nome 'GRUPO LINS FERRÃO | Analista De Sistemas SR', 'iv' 9687061 e page 1.
+2024-08-02 23:59:47,934 - INFO: Botão de aplicar-se pronto para ser clicado.
+2024-08-02 23:59:48,003 - INFO: Botão de aplicar-se clicado.
+2024-08-02 23:59:48,003 - INFO: Verificando se o elemento div.h3.mb-32 exite.
+2024-08-02 23:59:49,037 - INFO: O elemento div.h3.mb-32 exite.
+2024-08-02 23:59:49,037 - INFO: Vaga requer respostas a perguntas adicionais.
+2024-08-02 23:59:49,039 - INFO: Pulando vaga.
+2024-08-02 23:59:49,067 - INFO: Card 6 reclicando para fechar as perguntas.
+2024-08-02 23:59:49,131 - INFO: Card 6 reclicado com sucesso.
+2024-08-02 23:59:49,131 - INFO: Verificando se o elemento btnSharedLooseChangesModalDiscardForm exite.
+2024-08-02 23:59:49,141 - INFO: O elemento btnSharedLooseChangesModalDiscardForm exite.
+2024-08-02 23:59:49,141 - INFO: Verificando se o elemento btnSharedLooseChangesModalDiscardForm exite.
+2024-08-02 23:59:49,160 - INFO: O elemento btnSharedLooseChangesModalDiscardForm exite.
+2024-08-02 23:59:59,251 - INFO: Botão do modal clicado. Modal fechado com sucesso.
+2024-08-02 23:59:59,251 - INFO: Verificando se o elemento btnSharedLooseChangesModalDiscardForm exite.
+2024-08-03 00:00:09,491 - INFO: O elemento btnSharedLooseChangesModalDiscardForm não exite.
+
+2024-08-03 00:00:19,651 - INFO: Clicando no card 7/20 com nome '01450/2024 - Analista De Infraestrutura De TI - Júnior', 'iv' 9791046 e page 1.
+2024-08-03 00:00:19,667 - INFO: Botão de aplicar-se pronto para ser clicado.
+2024-08-03 00:00:19,740 - INFO: Botão de aplicar-se clicado.
+2024-08-03 00:00:19,740 - INFO: Verificando se o elemento div.h3.mb-32 exite.
+2024-08-03 00:00:20,258 - INFO: O elemento div.h3.mb-32 exite.
+2024-08-03 00:00:20,258 - INFO: Vaga requer respostas a perguntas adicionais.
+2024-08-03 00:00:20,258 - INFO: Pulando vaga.
+2024-08-03 00:00:20,296 - INFO: Card 7 reclicando para fechar as perguntas.
+2024-08-03 00:00:20,357 - INFO: Card 7 reclicado com sucesso.
+2024-08-03 00:00:20,357 - INFO: Verificando se o elemento btnSharedLooseChangesModalDiscardForm exite.
+2024-08-03 00:00:20,370 - INFO: O elemento btnSharedLooseChangesModalDiscardForm exite.
+2024-08-03 00:00:20,370 - INFO: Verificando se o elemento btnSharedLooseChangesModalDiscardForm exite.
+2024-08-03 00:00:20,384 - INFO: O elemento btnSharedLooseChangesModalDiscardForm exite.
+2024-08-03 00:00:30,457 - INFO: Botão do modal clicado. Modal fechado com sucesso.
+2024-08-03 00:00:30,457 - INFO: Verificando se o elemento btnSharedLooseChangesModalDiscardForm exite.
+2024-08-03 00:00:40,673 - INFO: O elemento btnSharedLooseChangesModalDiscardForm não exite.
+
+2024-08-03 00:00:50,818 - INFO: Clicando no card 8/20 com nome 'Analista SAP MM', 'iv' 9786048 e page 1.
+2024-08-03 00:00:50,850 - INFO: Botão de aplicar-se pronto para ser clicado.
+2024-08-03 00:00:50,916 - INFO: Botão de aplicar-se clicado.
+2024-08-03 00:00:50,916 - INFO: Verificando se o elemento div.h3.mb-32 exite.
+2024-08-03 00:01:01,143 - INFO: O elemento div.h3.mb-32 não exite.
+
+2024-08-03 00:01:11,315 - INFO: Clicando no card 9/20 com nome 'Analista Da Segurança Da Informação - Porto Alegre', 'iv' 9784525 e page 1.
+2024-08-03 00:01:11,346 - INFO: Botão de aplicar-se pronto para ser clicado.
+2024-08-03 00:01:11,419 - INFO: Botão de aplicar-se clicado.
+2024-08-03 00:01:11,419 - INFO: Verificando se o elemento div.h3.mb-32 exite.
+2024-08-03 00:01:11,948 - INFO: O elemento div.h3.mb-32 exite.
+2024-08-03 00:01:11,949 - INFO: Vaga requer respostas a perguntas adicionais.
+2024-08-03 00:01:11,950 - INFO: Pulando vaga.
+2024-08-03 00:01:11,977 - INFO: Card 9 reclicando para fechar as perguntas.
+2024-08-03 00:01:12,036 - INFO: Card 9 reclicado com sucesso.
+2024-08-03 00:01:12,036 - INFO: Verificando se o elemento btnSharedLooseChangesModalDiscardForm exite.
+2024-08-03 00:01:12,050 - INFO: O elemento btnSharedLooseChangesModalDiscardForm exite.
+2024-08-03 00:01:12,050 - INFO: Verificando se o elemento btnSharedLooseChangesModalDiscardForm exite.
+2024-08-03 00:01:12,062 - INFO: O elemento btnSharedLooseChangesModalDiscardForm exite.
+2024-08-03 00:01:22,131 - INFO: Botão do modal clicado. Modal fechado com sucesso.
+2024-08-03 00:01:22,132 - INFO: Verificando se o elemento btnSharedLooseChangesModalDiscardForm exite.
+2024-08-03 00:01:32,349 - INFO: O elemento btnSharedLooseChangesModalDiscardForm não exite.
+
+2024-08-03 00:01:42,511 - INFO: Clicando no card 10/20 com nome 'DESENVOLVEDOR FRONT- END', 'iv' 9783690 e page 1.
+2024-08-03 00:01:42,527 - INFO: Botão de aplicar-se pronto para ser clicado.
+2024-08-03 00:01:42,594 - INFO: Botão de aplicar-se clicado.
+2024-08-03 00:01:42,594 - INFO: Verificando se o elemento div.h3.mb-32 exite.
+2024-08-03 00:01:52,814 - INFO: O elemento div.h3.mb-32 não exite.
+
+2024-08-03 00:02:02,944 - INFO: Clicando no card 11/20 com nome 'Analista De E-Commerce', 'iv' 9783269 e page 1.
+2024-08-03 00:02:02,975 - INFO: Botão de aplicar-se pronto para ser clicado.
+2024-08-03 00:02:03,039 - INFO: Botão de aplicar-se clicado.
+2024-08-03 00:02:03,040 - INFO: Verificando se o elemento div.h3.mb-32 exite.
+2024-08-03 00:02:03,565 - INFO: O elemento div.h3.mb-32 exite.
+2024-08-03 00:02:03,565 - INFO: Vaga requer respostas a perguntas adicionais.
+2024-08-03 00:02:03,566 - INFO: Pulando vaga.
+2024-08-03 00:02:03,602 - INFO: Card 11 reclicando para fechar as perguntas.
+2024-08-03 00:02:03,668 - INFO: Card 11 reclicado com sucesso.
+2024-08-03 00:02:03,668 - INFO: Verificando se o elemento btnSharedLooseChangesModalDiscardForm exite.
+2024-08-03 00:02:03,678 - INFO: O elemento btnSharedLooseChangesModalDiscardForm exite.
+2024-08-03 00:02:03,678 - INFO: Verificando se o elemento btnSharedLooseChangesModalDiscardForm exite.
+2024-08-03 00:02:03,693 - INFO: O elemento btnSharedLooseChangesModalDiscardForm exite.
+2024-08-03 00:02:13,763 - INFO: Botão do modal clicado. Modal fechado com sucesso.
+2024-08-03 00:02:13,763 - INFO: Verificando se o elemento btnSharedLooseChangesModalDiscardForm exite.
+2024-08-03 00:02:23,977 - INFO: O elemento btnSharedLooseChangesModalDiscardForm não exite.
+
+2024-08-03 00:02:34,149 - INFO: Clicando no card 12/20 com nome 'Analista De Middleware Sênior', 'iv' 9783100 e page 1.
+2024-08-03 00:02:34,172 - INFO: Botão de aplicar-se pronto para ser clicado.
+2024-08-03 00:02:34,233 - INFO: Botão de aplicar-se clicado.
+2024-08-03 00:02:34,233 - INFO: Verificando se o elemento div.h3.mb-32 exite.
+2024-08-03 00:02:44,451 - INFO: O elemento div.h3.mb-32 não exite.
+
+2024-08-03 00:02:54,595 - INFO: Clicando no card 13/20 com nome 'Work From Home IT Security Analyst', 'iv' 9781946 e page 1.
+2024-08-03 00:02:54,626 - INFO: Botão de aplicar-se pronto para ser clicado.
+2024-08-03 00:02:54,707 - INFO: Botão de aplicar-se clicado.
+2024-08-03 00:02:54,708 - INFO: Verificando se o elemento div.h3.mb-32 exite.
+2024-08-03 00:03:00,824 - WARNING: Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'ConnectionResetError(10054, 'Foi forçado o cancelamento de uma conexão existente pelo host remoto', None, 10054, None)': /session/4ec76cb63c4a36b2867b834b46636962
+2024-08-03 00:14:35,044 - INFO: Driver configurado com sucesso.
+2024-08-03 00:14:35,145 - INFO: Aceitando cookies...
+2024-08-03 00:14:53,250 - INFO: Realizando login...
+2024-08-03 00:15:03,421 - INFO: Login realizado com sucesso.
+2024-08-03 00:15:03,421 - INFO: Clicando em todos os cards...
+2024-08-03 00:15:03,421 - INFO: Abrindo a página 1
+
+2024-08-03 00:15:05,393 - INFO: Abrindo a página 1
+
+
+2024-08-03 00:15:16,684 - INFO: Clicando no card 1/20 com nome 'Full Stack C# - Pleno', 'iv' 9805653 e page 1.
+2024-08-03 00:15:16,700 - INFO: Botão de aplicar-se pronto para ser clicado.
+2024-08-03 00:15:16,787 - INFO: Botão de aplicar-se clicado.
+2024-08-03 00:15:16,789 - INFO: Verificando se o elemento div.h3.mb-32 exite.
+2024-08-03 00:15:26,983 - INFO: O elemento div.h3.mb-32 não exite.
+
+2024-08-03 00:15:37,165 - INFO: Clicando no card 2/20 com nome 'Software Tester Pleno - Home Office', 'iv' 9804337 e page 1.
+2024-08-03 00:15:37,204 - INFO: Botão de aplicar-se pronto para ser clicado.
+2024-08-03 00:15:37,293 - INFO: Botão de aplicar-se clicado.
+2024-08-03 00:15:37,294 - INFO: Verificando se o elemento div.h3.mb-32 exite.
+2024-08-03 00:15:37,824 - INFO: O elemento div.h3.mb-32 exite.
+2024-08-03 00:15:37,825 - INFO: Vaga requer respostas a perguntas adicionais.
+2024-08-03 00:15:37,826 - INFO: Pulando vaga.
+2024-08-03 00:15:37,865 - INFO: Card 2 reclicando para fechar as perguntas.
+2024-08-03 00:15:37,950 - INFO: Card 2 reclicado com sucesso.
+2024-08-03 00:15:37,950 - INFO: Verificando se o elemento btnSharedLooseChangesModalDiscardForm exite.
+2024-08-03 00:15:37,978 - INFO: O elemento btnSharedLooseChangesModalDiscardForm exite.
+2024-08-03 00:15:37,979 - INFO: Verificando se o elemento btnSharedLooseChangesModalDiscardForm exite.
+2024-08-03 00:15:37,993 - INFO: O elemento btnSharedLooseChangesModalDiscardForm exite.
+2024-08-03 00:15:48,084 - INFO: Botão do modal clicado. Modal fechado com sucesso.
+2024-08-03 00:15:48,085 - INFO: Verificando se o elemento btnSharedLooseChangesModalDiscardForm exite.
+2024-08-03 00:15:58,279 - INFO: O elemento btnSharedLooseChangesModalDiscardForm não exite.
+
+2024-08-03 00:16:08,423 - INFO: Clicando no card 3/20 com nome 'Analista De Sistemas - Desenvolvedor Delphi', 'iv' 6566793 e page 1.
+2024-08-03 00:16:08,455 - INFO: Botão de aplicar-se pronto para ser clicado.
+2024-08-03 00:16:08,519 - INFO: Botão de aplicar-se clicado.
+2024-08-03 00:16:08,520 - INFO: Verificando se o elemento div.h3.mb-32 exite.
+2024-08-03 00:16:18,712 - INFO: O elemento div.h3.mb-32 não exite.
+
+2024-08-03 00:16:28,886 - INFO: Clicando no card 4/20 com nome 'Analista Técnico Funcional Sênior', 'iv' 9799747 e page 1.
+2024-08-03 00:16:28,933 - INFO: Botão de aplicar-se pronto para ser clicado.
+2024-08-03 00:16:28,994 - INFO: Botão de aplicar-se clicado.
+2024-08-03 00:16:28,994 - INFO: Verificando se o elemento div.h3.mb-32 exite.
+2024-08-03 00:16:39,189 - INFO: O elemento div.h3.mb-32 não exite.
+
+2024-08-03 00:16:49,335 - INFO: Clicando no card 5/20 com nome 'Analista De Modelagem III_Externo | Almaviva Fortaleza', 'iv' 9798357 e page 1.
+2024-08-03 00:16:49,366 - INFO: Botão de aplicar-se pronto para ser clicado.
+2024-08-03 00:16:49,429 - INFO: Botão de aplicar-se clicado.
+2024-08-03 00:16:49,429 - INFO: Verificando se o elemento div.h3.mb-32 exite.
+2024-08-03 00:16:59,628 - INFO: O elemento div.h3.mb-32 não exite.
+
+2024-08-03 00:17:09,787 - INFO: Clicando no card 6/20 com nome 'GRUPO LINS FERRÃO | Analista De Sistemas SR', 'iv' 9687061 e page 1.
+2024-08-03 00:17:09,818 - INFO: Botão de aplicar-se pronto para ser clicado.
+2024-08-03 00:17:09,884 - INFO: Botão de aplicar-se clicado.
+2024-08-03 00:17:09,884 - INFO: Verificando se o elemento div.h3.mb-32 exite.
+2024-08-03 00:17:10,409 - INFO: O elemento div.h3.mb-32 exite.
+2024-08-03 00:17:10,415 - INFO: Vaga requer respostas a perguntas adicionais.
+2024-08-03 00:17:10,416 - INFO: Pulando vaga.
+2024-08-03 00:17:10,476 - INFO: Card 6 reclicando para fechar as perguntas.
+2024-08-03 00:17:10,565 - INFO: Card 6 reclicado com sucesso.
+2024-08-03 00:17:10,565 - INFO: Verificando se o elemento btnSharedLooseChangesModalDiscardForm exite.
+2024-08-03 00:17:10,574 - INFO: O elemento btnSharedLooseChangesModalDiscardForm exite.
+2024-08-03 00:17:10,574 - INFO: Verificando se o elemento btnSharedLooseChangesModalDiscardForm exite.
+2024-08-03 00:17:10,601 - INFO: O elemento btnSharedLooseChangesModalDiscardForm exite.
+2024-08-03 00:17:20,684 - INFO: Botão do modal clicado. Modal fechado com sucesso.
+2024-08-03 00:17:20,685 - INFO: Verificando se o elemento btnSharedLooseChangesModalDiscardForm exite.
+2024-08-03 00:17:30,885 - INFO: O elemento btnSharedLooseChangesModalDiscardForm não exite.
+
+2024-08-03 00:17:41,051 - INFO: Clicando no card 7/20 com nome '01450/2024 - Analista De Infraestrutura De TI - Júnior', 'iv' 9791046 e page 1.
+2024-08-03 00:17:41,082 - INFO: Botão de aplicar-se pronto para ser clicado.
+2024-08-03 00:17:41,178 - INFO: Botão de aplicar-se clicado.
+2024-08-03 00:17:41,180 - INFO: Verificando se o elemento div.h3.mb-32 exite.
+2024-08-03 00:17:41,714 - INFO: O elemento div.h3.mb-32 exite.
+2024-08-03 00:17:41,714 - INFO: Vaga requer respostas a perguntas adicionais.
+2024-08-03 00:17:41,716 - INFO: Pulando vaga.
+2024-08-03 00:17:41,746 - INFO: Card 7 reclicando para fechar as perguntas.
+2024-08-03 00:17:41,826 - INFO: Card 7 reclicado com sucesso.
+2024-08-03 00:17:41,828 - INFO: Verificando se o elemento btnSharedLooseChangesModalDiscardForm exite.
+2024-08-03 00:17:41,833 - INFO: O elemento btnSharedLooseChangesModalDiscardForm exite.
+2024-08-03 00:17:41,833 - INFO: Verificando se o elemento btnSharedLooseChangesModalDiscardForm exite.
+2024-08-03 00:17:41,852 - INFO: O elemento btnSharedLooseChangesModalDiscardForm exite.
+2024-08-03 00:17:51,951 - INFO: Botão do modal clicado. Modal fechado com sucesso.
+2024-08-03 00:17:51,952 - INFO: Verificando se o elemento btnSharedLooseChangesModalDiscardForm exite.
+2024-08-03 00:18:02,141 - INFO: O elemento btnSharedLooseChangesModalDiscardForm não exite.
+
+2024-08-03 00:18:12,290 - INFO: Clicando no card 8/20 com nome 'Analista SAP MM', 'iv' 9786048 e page 1.
+2024-08-03 00:18:12,322 - INFO: Botão de aplicar-se pronto para ser clicado.
+2024-08-03 00:18:12,387 - INFO: Botão de aplicar-se clicado.
+2024-08-03 00:18:12,387 - INFO: Verificando se o elemento div.h3.mb-32 exite.
+2024-08-03 00:18:22,584 - INFO: O elemento div.h3.mb-32 não exite.
+
+2024-08-03 00:18:32,766 - INFO: Clicando no card 9/20 com nome 'Analista Da Segurança Da Informação - Porto Alegre', 'iv' 9784525 e page 1.
+2024-08-03 00:18:32,797 - INFO: Botão de aplicar-se pronto para ser clicado.
+2024-08-03 00:18:32,867 - INFO: Botão de aplicar-se clicado.
+2024-08-03 00:18:32,867 - INFO: Verificando se o elemento div.h3.mb-32 exite.
+2024-08-03 00:18:33,909 - INFO: O elemento div.h3.mb-32 exite.
+2024-08-03 00:18:33,910 - INFO: Vaga requer respostas a perguntas adicionais.
+2024-08-03 00:18:33,911 - INFO: Pulando vaga.
+2024-08-03 00:18:33,948 - INFO: Card 9 reclicando para fechar as perguntas.
+2024-08-03 00:18:34,030 - INFO: Card 9 reclicado com sucesso.
+2024-08-03 00:18:34,031 - INFO: Verificando se o elemento btnSharedLooseChangesModalDiscardForm exite.
+2024-08-03 00:18:34,048 - INFO: O elemento btnSharedLooseChangesModalDiscardForm exite.
+2024-08-03 00:18:34,048 - INFO: Verificando se o elemento btnSharedLooseChangesModalDiscardForm exite.
+2024-08-03 00:18:34,066 - INFO: O elemento btnSharedLooseChangesModalDiscardForm exite.
+2024-08-03 00:18:44,145 - INFO: Botão do modal clicado. Modal fechado com sucesso.
+2024-08-03 00:18:44,145 - INFO: Verificando se o elemento btnSharedLooseChangesModalDiscardForm exite.
+2024-08-03 00:18:54,338 - INFO: O elemento btnSharedLooseChangesModalDiscardForm não exite.
+
+2024-08-03 00:19:04,494 - INFO: Clicando no card 10/20 com nome 'DESENVOLVEDOR FRONT- END', 'iv' 9783690 e page 1.
+2024-08-03 00:19:04,525 - INFO: Botão de aplicar-se pronto para ser clicado.
+2024-08-03 00:19:04,600 - INFO: Botão de aplicar-se clicado.
+2024-08-03 00:19:04,600 - INFO: Verificando se o elemento div.h3.mb-32 exite.
+2024-08-03 00:19:14,805 - INFO: O elemento div.h3.mb-32 não exite.
+
+2024-08-03 00:19:24,980 - INFO: Clicando no card 11/20 com nome 'Analista De E-Commerce', 'iv' 9783269 e page 1.
+2024-08-03 00:19:25,011 - INFO: Botão de aplicar-se pronto para ser clicado.
+2024-08-03 00:19:25,069 - INFO: Botão de aplicar-se clicado.
+2024-08-03 00:19:25,069 - INFO: Verificando se o elemento div.h3.mb-32 exite.
+2024-08-03 00:19:25,602 - INFO: O elemento div.h3.mb-32 exite.
+2024-08-03 00:19:25,602 - INFO: Vaga requer respostas a perguntas adicionais.
+2024-08-03 00:19:25,603 - INFO: Pulando vaga.
+2024-08-03 00:19:25,630 - INFO: Card 11 reclicando para fechar as perguntas.
+2024-08-03 00:19:25,722 - INFO: Card 11 reclicado com sucesso.
+2024-08-03 00:19:25,723 - INFO: Verificando se o elemento btnSharedLooseChangesModalDiscardForm exite.
+2024-08-03 00:19:25,751 - INFO: O elemento btnSharedLooseChangesModalDiscardForm exite.
+2024-08-03 00:19:25,751 - INFO: Verificando se o elemento btnSharedLooseChangesModalDiscardForm exite.
+2024-08-03 00:19:25,763 - INFO: O elemento btnSharedLooseChangesModalDiscardForm exite.
+2024-08-03 00:19:35,885 - INFO: Botão do modal clicado. Modal fechado com sucesso.
+2024-08-03 00:19:35,886 - INFO: Verificando se o elemento btnSharedLooseChangesModalDiscardForm exite.
+2024-08-03 00:19:46,106 - INFO: O elemento btnSharedLooseChangesModalDiscardForm não exite.
+
+2024-08-03 00:19:56,258 - INFO: Clicando no card 12/20 com nome 'Analista De Middleware Sênior', 'iv' 9783100 e page 1.
+2024-08-03 00:19:56,289 - INFO: Botão de aplicar-se pronto para ser clicado.
+2024-08-03 00:19:56,356 - INFO: Botão de aplicar-se clicado.
+2024-08-03 00:19:56,358 - INFO: Verificando se o elemento div.h3.mb-32 exite.
+2024-08-03 00:20:06,554 - INFO: O elemento div.h3.mb-32 não exite.
+
+2024-08-03 00:20:16,701 - INFO: Clicando no card 13/20 com nome 'Work From Home IT Security Analyst', 'iv' 9781946 e page 1.
+2024-08-03 00:20:16,732 - INFO: Botão de aplicar-se pronto para ser clicado.
+2024-08-03 00:20:16,834 - INFO: Botão de aplicar-se clicado.
+2024-08-03 00:20:16,834 - INFO: Verificando se o elemento div.h3.mb-32 exite.
+2024-08-03 00:20:27,021 - INFO: O elemento div.h3.mb-32 não exite.
+
+2024-08-03 00:20:37,169 - INFO: Clicando no card 14/20 com nome 'Work From Home Front-End QA Analyst', 'iv' 9781944 e page 1.
+2024-08-03 00:20:37,200 - INFO: Botão de aplicar-se pronto para ser clicado.
+2024-08-03 00:20:37,262 - INFO: Botão de aplicar-se clicado.
+2024-08-03 00:20:37,264 - INFO: Verificando se o elemento div.h3.mb-32 exite.
+2024-08-03 00:20:47,466 - INFO: O elemento div.h3.mb-32 não exite.
+
+2024-08-03 00:20:57,606 - INFO: Clicando no card 15/20 com nome 'Work From Home IT Security Analyst', 'iv' 9781945 e page 1.
+2024-08-03 00:20:57,637 - INFO: Botão de aplicar-se pronto para ser clicado.
+2024-08-03 00:20:57,704 - INFO: Botão de aplicar-se clicado.
+2024-08-03 00:20:57,704 - INFO: Verificando se o elemento div.h3.mb-32 exite.
+2024-08-03 00:21:07,892 - INFO: O elemento div.h3.mb-32 não exite.
+
+2024-08-03 00:21:18,021 - INFO: Clicando no card 16/20 com nome 'Work From Home IT Security Analyst', 'iv' 9781947 e page 1.
+2024-08-03 00:21:18,052 - INFO: Botão de aplicar-se pronto para ser clicado.
+2024-08-03 00:21:18,127 - INFO: Botão de aplicar-se clicado.
+2024-08-03 00:21:18,128 - INFO: Verificando se o elemento div.h3.mb-32 exite.
+2024-08-03 00:21:28,320 - INFO: O elemento div.h3.mb-32 não exite.
+
+2024-08-03 00:21:38,449 - INFO: Clicando no card 17/20 com nome 'Trabalhe De Casa Pessoa Desenvolvedora Python', 'iv' 9781908 e page 1.
+2024-08-03 00:21:38,480 - INFO: Botão de aplicar-se pronto para ser clicado.
+2024-08-03 00:21:38,556 - INFO: Botão de aplicar-se clicado.
+2024-08-03 00:21:38,558 - INFO: Verificando se o elemento div.h3.mb-32 exite.
+2024-08-03 00:21:48,758 - INFO: O elemento div.h3.mb-32 não exite.
+
+2024-08-03 00:21:58,907 - INFO: Clicando no card 18/20 com nome 'Trabalhe De Casa Pessoa Desenvolvedora Python', 'iv' 9781909 e page 1.
+2024-08-03 00:21:58,939 - INFO: Botão de aplicar-se pronto para ser clicado.
+2024-08-03 00:21:58,992 - INFO: Botão de aplicar-se clicado.
+2024-08-03 00:21:58,992 - INFO: Verificando se o elemento div.h3.mb-32 exite.
+2024-08-03 00:22:09,185 - INFO: O elemento div.h3.mb-32 não exite.
+
+2024-08-03 00:22:19,315 - INFO: Clicando no card 19/20 com nome 'Work From Home Work From Home .NET + React Developer', 'iv' 9781920 e page 1.
+2024-08-03 00:22:19,347 - INFO: Botão de aplicar-se pronto para ser clicado.
+2024-08-03 00:22:19,418 - INFO: Botão de aplicar-se clicado.
+2024-08-03 00:22:19,418 - INFO: Verificando se o elemento div.h3.mb-32 exite.
+2024-08-03 00:22:29,618 - INFO: O elemento div.h3.mb-32 não exite.
+
+2024-08-03 00:22:39,738 - INFO: Clicando no card 20/20 com nome 'Work From Home Work From Home .NET + React Developer', 'iv' 9781922 e page 1.
+2024-08-03 00:22:39,770 - INFO: Botão de aplicar-se pronto para ser clicado.
+2024-08-03 00:22:39,848 - INFO: Botão de aplicar-se clicado.
+2024-08-03 00:22:39,849 - INFO: Verificando se o elemento div.h3.mb-32 exite.
+2024-08-03 00:22:50,045 - INFO: O elemento div.h3.mb-32 não exite.
+2024-08-03 00:22:50,045 - INFO: Abrindo a página 2
+
+
+2024-08-03 00:23:01,617 - INFO: Clicando no card 1/20 com nome 'Trabalhe De Casa Desenvolvedora/Engenheira Java', 'iv' 9781913 e page 2.
+2024-08-03 00:23:01,648 - INFO: Botão de aplicar-se pronto para ser clicado.
+2024-08-03 00:23:01,713 - INFO: Botão de aplicar-se clicado.
+2024-08-03 00:23:01,713 - INFO: Verificando se o elemento div.h3.mb-32 exite.
+2024-08-03 00:23:11,909 - INFO: O elemento div.h3.mb-32 não exite.
+
+2024-08-03 00:23:22,044 - INFO: Clicando no card 2/20 com nome 'Trabalhe De Casa Desenvolvedora/Engenheira Java', 'iv' 9781915 e page 2.
+2024-08-03 00:23:22,075 - INFO: Botão de aplicar-se pronto para ser clicado.
+2024-08-03 00:23:22,137 - INFO: Botão de aplicar-se clicado.
+2024-08-03 00:23:22,138 - INFO: Verificando se o elemento div.h3.mb-32 exite.
+2024-08-03 00:23:32,334 - INFO: O elemento div.h3.mb-32 não exite.
+
+2024-08-03 00:23:42,483 - INFO: Clicando no card 3/20 com nome 'Work From Home Work From Home .NET + React Developer', 'iv' 9781916 e page 2.
+2024-08-03 00:23:42,514 - INFO: Botão de aplicar-se pronto para ser clicado.
+2024-08-03 00:23:42,592 - INFO: Botão de aplicar-se clicado.
+2024-08-03 00:23:42,630 - INFO: Verificando se o elemento div.h3.mb-32 exite.
+2024-08-03 00:23:52,881 - INFO: O elemento div.h3.mb-32 não exite.
+
+2024-08-03 00:24:03,023 - INFO: Clicando no card 4/20 com nome 'Work From Home Work From Home .NET + React Developer', 'iv' 9781921 e page 2.
+2024-08-03 00:24:03,054 - INFO: Botão de aplicar-se pronto para ser clicado.
+2024-08-03 00:24:03,120 - INFO: Botão de aplicar-se clicado.
+2024-08-03 00:24:03,120 - INFO: Verificando se o elemento div.h3.mb-32 exite.
+2024-08-03 00:24:13,311 - INFO: O elemento div.h3.mb-32 não exite.
+
+2024-08-03 00:24:23,506 - INFO: Clicando no card 5/20 com nome 'Work From Home Work From Home .NET + React Developer', 'iv' 9781922 e page 2.
+2024-08-03 00:24:23,522 - INFO: Botão de aplicar-se pronto para ser clicado.
+2024-08-03 00:24:23,589 - INFO: Botão de aplicar-se clicado.
+2024-08-03 00:24:23,589 - INFO: Verificando se o elemento div.h3.mb-32 exite.
+2024-08-03 00:24:33,784 - INFO: O elemento div.h3.mb-32 não exite.
+
+2024-08-03 00:24:43,924 - INFO: Clicando no card 6/20 com nome 'Work From Home Devops Engineer', 'iv' 9781926 e page 2.
+2024-08-03 00:24:43,955 - INFO: Botão de aplicar-se pronto para ser clicado.
+2024-08-03 00:24:44,016 - INFO: Botão de aplicar-se clicado.
+2024-08-03 00:24:44,016 - INFO: Verificando se o elemento div.h3.mb-32 exite.
+2024-08-03 00:24:54,223 - INFO: O elemento div.h3.mb-32 não exite.
+
+2024-08-03 00:25:04,361 - INFO: Clicando no card 7/20 com nome 'Work From Home Front-End QA Analyst', 'iv' 9781939 e page 2.
+2024-08-03 00:25:04,393 - INFO: Botão de aplicar-se pronto para ser clicado.
+2024-08-03 00:25:04,455 - INFO: Botão de aplicar-se clicado.
+2024-08-03 00:25:04,459 - INFO: Verificando se o elemento div.h3.mb-32 exite.
+2024-08-03 00:25:14,651 - INFO: O elemento div.h3.mb-32 não exite.
+
+2024-08-03 00:25:24,853 - INFO: Clicando no card 8/20 com nome 'Work From Home Front-End QA Analyst', 'iv' 9781940 e page 2.
+2024-08-03 00:25:24,884 - INFO: Botão de aplicar-se pronto para ser clicado.
+2024-08-03 00:25:24,948 - INFO: Botão de aplicar-se clicado.
+2024-08-03 00:25:24,948 - INFO: Verificando se o elemento div.h3.mb-32 exite.
+2024-08-03 00:25:35,140 - INFO: O elemento div.h3.mb-32 não exite.
+
+2024-08-03 00:25:45,273 - INFO: Clicando no card 9/20 com nome 'Work From Home Front-End QA Analyst', 'iv' 9781941 e page 2.
+2024-08-03 00:25:45,304 - INFO: Botão de aplicar-se pronto para ser clicado.
+2024-08-03 00:25:45,366 - INFO: Botão de aplicar-se clicado.
+2024-08-03 00:25:45,366 - INFO: Verificando se o elemento div.h3.mb-32 exite.
+2024-08-03 00:25:55,559 - INFO: O elemento div.h3.mb-32 não exite.
+
+2024-08-03 00:26:05,704 - INFO: Clicando no card 10/20 com nome 'Work From Home Front-End QA Analyst', 'iv' 9781942 e page 2.
+2024-08-03 00:26:05,735 - INFO: Botão de aplicar-se pronto para ser clicado.
+2024-08-03 00:26:05,797 - INFO: Botão de aplicar-se clicado.
+2024-08-03 00:26:05,811 - INFO: Verificando se o elemento div.h3.mb-32 exite.
+2024-08-03 00:26:16,020 - INFO: O elemento div.h3.mb-32 não exite.
+
+2024-08-03 00:26:26,152 - INFO: Clicando no card 11/20 com nome 'Trabalhe De Casa Pessoa Desenvolvedora React', 'iv' 9781904 e page 2.
+2024-08-03 00:26:26,183 - INFO: Botão de aplicar-se pronto para ser clicado.
+2024-08-03 00:26:26,244 - INFO: Botão de aplicar-se clicado.
+2024-08-03 00:26:26,244 - INFO: Verificando se o elemento div.h3.mb-32 exite.
+2024-08-03 00:26:36,443 - INFO: O elemento div.h3.mb-32 não exite.
+
+2024-08-03 00:26:46,576 - INFO: Clicando no card 12/20 com nome 'Work From Home Work From Home .NET + React Developer', 'iv' 9781919 e page 2.
+2024-08-03 00:26:46,607 - INFO: Botão de aplicar-se pronto para ser clicado.
+2024-08-03 00:26:46,674 - INFO: Botão de aplicar-se clicado.
+2024-08-03 00:26:46,674 - INFO: Verificando se o elemento div.h3.mb-32 exite.
+2024-08-03 00:26:56,866 - INFO: O elemento div.h3.mb-32 não exite.
+
+2024-08-03 00:27:07,018 - INFO: Clicando no card 13/20 com nome 'Work From Home Work From Home .NET + React Developer', 'iv' 9781920 e page 2.
+2024-08-03 00:27:07,049 - INFO: Botão de aplicar-se pronto para ser clicado.
+2024-08-03 00:27:07,110 - INFO: Botão de aplicar-se clicado.
+2024-08-03 00:27:07,110 - INFO: Verificando se o elemento div.h3.mb-32 exite.
+2024-08-03 00:27:17,302 - INFO: O elemento div.h3.mb-32 não exite.
+
+2024-08-03 00:27:27,439 - INFO: Clicando no card 14/20 com nome 'Work From Home Devops Engineer', 'iv' 9781928 e page 2.
+2024-08-03 00:27:27,470 - INFO: Botão de aplicar-se pronto para ser clicado.
+2024-08-03 00:27:27,538 - INFO: Botão de aplicar-se clicado.
+2024-08-03 00:27:27,538 - INFO: Verificando se o elemento div.h3.mb-32 exite.
+2024-08-03 00:27:37,736 - INFO: O elemento div.h3.mb-32 não exite.
+
+2024-08-03 00:27:47,861 - INFO: Clicando no card 15/20 com nome 'Trabalhe De Casa Desenvolvedora/Engenheira React', 'iv' 9781900 e page 2.
+2024-08-03 00:27:47,893 - INFO: Botão de aplicar-se pronto para ser clicado.
+2024-08-03 00:27:47,972 - INFO: Botão de aplicar-se clicado.
+2024-08-03 00:27:47,972 - INFO: Verificando se o elemento div.h3.mb-32 exite.
+2024-08-03 00:27:58,174 - INFO: O elemento div.h3.mb-32 não exite.
+
+2024-08-03 00:28:08,315 - INFO: Clicando no card 16/20 com nome 'Trabalhe De Casa Desenvolvedora/Engenheira React', 'iv' 9781901 e page 2.
+2024-08-03 00:28:08,331 - INFO: Botão de aplicar-se pronto para ser clicado.
+2024-08-03 00:28:08,409 - INFO: Botão de aplicar-se clicado.
+2024-08-03 00:28:08,410 - INFO: Verificando se o elemento div.h3.mb-32 exite.
+2024-08-03 00:28:18,602 - INFO: O elemento div.h3.mb-32 não exite.
+
+2024-08-03 00:28:28,752 - INFO: Clicando no card 17/20 com nome 'Trabalhe De Casa Desenvolvedora/Engenheira React', 'iv' 9781902 e page 2.
+2024-08-03 00:28:28,767 - INFO: Botão de aplicar-se pronto para ser clicado.
+2024-08-03 00:28:28,856 - INFO: Botão de aplicar-se clicado.
+2024-08-03 00:28:28,857 - INFO: Verificando se o elemento div.h3.mb-32 exite.
+2024-08-03 00:28:39,047 - INFO: O elemento div.h3.mb-32 não exite.
+
+2024-08-03 00:28:49,193 - INFO: Clicando no card 18/20 com nome 'Trabalhe De Casa Pessoa Desenvolvedora React', 'iv' 9781905 e page 2.
+2024-08-03 00:28:49,225 - INFO: Botão de aplicar-se pronto para ser clicado.
+2024-08-03 00:28:49,289 - INFO: Botão de aplicar-se clicado.
+2024-08-03 00:28:49,294 - INFO: Verificando se o elemento div.h3.mb-32 exite.
+2024-08-03 00:28:59,502 - INFO: O elemento div.h3.mb-32 não exite.
+
+2024-08-03 00:29:09,631 - INFO: Clicando no card 19/20 com nome 'Trabalhe De Casa Pessoa Desenvolvedora React', 'iv' 9781906 e page 2.
+2024-08-03 00:29:09,662 - INFO: Botão de aplicar-se pronto para ser clicado.
+2024-08-03 00:29:09,731 - INFO: Botão de aplicar-se clicado.
+2024-08-03 00:29:09,736 - INFO: Verificando se o elemento div.h3.mb-32 exite.
+2024-08-03 00:29:19,936 - INFO: O elemento div.h3.mb-32 não exite.
+
+2024-08-03 00:29:30,076 - INFO: Clicando no card 20/20 com nome 'Trabalhe De Casa Pessoa Desenvolvedora Python', 'iv' 9781907 e page 2.
+2024-08-03 00:29:30,107 - INFO: Botão de aplicar-se pronto para ser clicado.
+2024-08-03 00:29:30,186 - INFO: Botão de aplicar-se clicado.
+2024-08-03 00:29:30,188 - INFO: Verificando se o elemento div.h3.mb-32 exite.
+2024-08-03 00:29:40,387 - INFO: O elemento div.h3.mb-32 não exite.
+2024-08-03 00:29:40,387 - INFO: Abrindo a página 3
+
+
+2024-08-03 00:29:51,937 - INFO: Clicando no card 1/20 com nome 'Work From Home Front-End QA Analyst', 'iv' 9781942 e page 3.
+2024-08-03 00:29:51,969 - INFO: Botão de aplicar-se pronto para ser clicado.
+2024-08-03 00:29:52,058 - INFO: Botão de aplicar-se clicado.
+2024-08-03 00:29:52,061 - INFO: Verificando se o elemento div.h3.mb-32 exite.
+2024-08-03 00:30:02,254 - INFO: O elemento div.h3.mb-32 não exite.
+
+2024-08-03 00:30:12,399 - INFO: Clicando no card 2/20 com nome 'Trabalhe De Casa Pessoa Desenvolvedora React', 'iv' 9781906 e page 3.
+2024-08-03 00:30:12,430 - INFO: Botão de aplicar-se pronto para ser clicado.
+2024-08-03 00:30:12,493 - INFO: Botão de aplicar-se clicado.
+2024-08-03 00:30:12,493 - INFO: Verificando se o elemento div.h3.mb-32 exite.
+2024-08-03 00:30:22,700 - INFO: O elemento div.h3.mb-32 não exite.
+
+2024-08-03 00:30:32,872 - INFO: Clicando no card 3/20 com nome 'Trabalhe De Casa Pessoa Desenvolvedora Python', 'iv' 9781907 e page 3.
+2024-08-03 00:30:32,887 - INFO: Botão de aplicar-se pronto para ser clicado.
+2024-08-03 00:30:32,969 - INFO: Botão de aplicar-se clicado.
+2024-08-03 00:30:32,999 - INFO: Verificando se o elemento div.h3.mb-32 exite.
+2024-08-03 00:30:43,253 - INFO: O elemento div.h3.mb-32 não exite.
+
+2024-08-03 00:30:53,400 - INFO: Clicando no card 4/20 com nome 'Trabalhe De Casa Desenvolvedora/Engenheira Java', 'iv' 9781910 e page 3.
+2024-08-03 00:30:53,431 - INFO: Botão de aplicar-se pronto para ser clicado.
+2024-08-03 00:30:53,496 - INFO: Botão de aplicar-se clicado.
+2024-08-03 00:30:53,499 - INFO: Verificando se o elemento div.h3.mb-32 exite.
+2024-08-03 00:31:03,693 - INFO: O elemento div.h3.mb-32 não exite.
+
+2024-08-03 00:31:13,827 - INFO: Clicando no card 5/20 com nome 'Trabalhe De Casa Desenvolvedora/Engenheira Java', 'iv' 9781911 e page 3.
+2024-08-03 00:31:13,858 - INFO: Botão de aplicar-se pronto para ser clicado.
+2024-08-03 00:31:13,919 - INFO: Botão de aplicar-se clicado.
+2024-08-03 00:31:13,921 - INFO: Verificando se o elemento div.h3.mb-32 exite.
+2024-08-03 00:31:24,164 - INFO: O elemento div.h3.mb-32 não exite.
+
+2024-08-03 00:31:34,322 - INFO: Clicando no card 6/20 com nome 'Work From Home Work From Home .NET + React Developer', 'iv' 9781916 e page 3.
+2024-08-03 00:31:34,338 - INFO: Botão de aplicar-se pronto para ser clicado.
+2024-08-03 00:31:34,417 - INFO: Botão de aplicar-se clicado.
+2024-08-03 00:31:34,417 - INFO: Verificando se o elemento div.h3.mb-32 exite.
+2024-08-03 00:31:44,620 - INFO: O elemento div.h3.mb-32 não exite.
+
+2024-08-03 00:31:54,757 - INFO: Clicando no card 7/20 com nome 'Work From Home Work From Home .NET + React Developer', 'iv' 9781918 e page 3.
+2024-08-03 00:31:54,788 - INFO: Botão de aplicar-se pronto para ser clicado.
+2024-08-03 00:31:54,850 - INFO: Botão de aplicar-se clicado.
+2024-08-03 00:31:54,850 - INFO: Verificando se o elemento div.h3.mb-32 exite.
+2024-08-03 00:32:05,099 - INFO: O elemento div.h3.mb-32 não exite.
+
+2024-08-03 00:32:15,245 - INFO: Clicando no card 8/20 com nome 'Work From Home Front-End QA Analyst', 'iv' 9781943 e page 3.
+2024-08-03 00:32:15,276 - INFO: Botão de aplicar-se pronto para ser clicado.
+2024-08-03 00:32:15,347 - INFO: Botão de aplicar-se clicado.
+2024-08-03 00:32:15,348 - INFO: Verificando se o elemento div.h3.mb-32 exite.
+2024-08-03 00:32:25,545 - INFO: O elemento div.h3.mb-32 não exite.
+
+2024-08-03 00:32:35,689 - INFO: Clicando no card 9/20 com nome 'Trabalhe De Casa Desenvolvedor Pleno Python Backend / Pesquisa + Desenvolvimento', 'iv' 9781888 e page 3.
+2024-08-03 00:32:35,704 - INFO: Botão de aplicar-se pronto para ser clicado.
+2024-08-03 00:32:35,780 - INFO: Botão de aplicar-se clicado.
+2024-08-03 00:32:35,783 - INFO: Verificando se o elemento div.h3.mb-32 exite.
+2024-08-03 00:32:46,013 - INFO: O elemento div.h3.mb-32 não exite.
+
+2024-08-03 00:32:56,164 - INFO: Clicando no card 10/20 com nome 'Work From Home UX Designer / R+D', 'iv' 9781829 e page 3.
+2024-08-03 00:32:56,196 - INFO: Botão de aplicar-se pronto para ser clicado.
+2024-08-03 00:32:56,256 - INFO: Botão de aplicar-se clicado.
+2024-08-03 00:32:56,257 - INFO: Verificando se o elemento div.h3.mb-32 exite.
+2024-08-03 00:33:06,540 - INFO: O elemento div.h3.mb-32 não exite.
+
+2024-08-03 00:33:08,424 - ERROR: Erro ao clicar no card 11. Outro elemento interceptou o clique.
+2024-08-03 00:33:16,393 - INFO: Driver finalizado.

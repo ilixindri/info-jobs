@@ -32,6 +32,8 @@ from math import ceil
 from urllib.parse import urlparse, parse_qs
 import os
 import time
+import threading
+import keyboard
 
 # Configuração do módulo de logging
 logging.basicConfig(level=logging.INFO,
@@ -40,6 +42,9 @@ logging.basicConfig(level=logging.INFO,
                         logging.FileHandler("infojobs.log"),
                         logging.StreamHandler(sys.stdout)
                     ])
+loop = True
+paused = False
+stop = False
 
 class WebDriverManager:
     def __init__(self, driver_path):
@@ -184,27 +189,22 @@ class InfoJobsScraper:
             logging.info(f'Card {index} reclicando para fechar as perguntas.')
             # logging.info('Fazendo scroll para clicar no card para abrir a seção de aplicar-se.')
             # self.scroll_to_element(card_link)
+
             card_link.click()
             logging.info(f'Card {index} reclicado com sucesso.')
         except TimeoutException:
             logging.error(f"Erro de tempo ao processar o card {index}.")
-            raise
         except NoSuchElementException:
             logging.error(f"Elemento não encontrado ao processar o card {index}.")
-            raise
         except ElementClickInterceptedException:
             logging.error(f"Erro ao clicar no card {index}. Outro elemento interceptou o clique.")
-            raise
         except ElementNotInteractableException:
             logging.error(f"Erro ao interagir com o card {index}. Elemento não interagível.")
-            raise
         except ElementClickInterceptedException:
             logging.error('error 00')
-            raise
         except Exception as e:
             logging.error(f"Erro inesperado ao processar o card {index}: {e}")
             logging.error(f"Erro ao processar o card {index}: {e}")
-            raise
 
         while self.element_exists(By.ID, "btnSharedLooseChangesModalDiscardForm") != False:
             if self.element_exists(By.ID, "btnSharedLooseChangesModalDiscardForm"):
@@ -269,7 +269,12 @@ class InfoJobsScraper:
                         EC.element_to_be_clickable((By.CSS_SELECTOR, "div.h3.mb-32"))
                     )
                 except:
-                    pass
+                    # try:
+                    #     WebDriverWait(self.driver_manager.driver, 10).until(
+                    #         EC.element_to_be_clickable((By.CSS_SELECTOR, "div.h3.mb-32"))
+                    #     )
+                    # except:
+                        pass
             self.card_iv = parse_qs(urlparse(self.driver_manager.driver.current_url).query).get('iv')[0]
 
             if not first_iv:
@@ -336,6 +341,14 @@ class InfoJobsScraper:
             logging.info("Vaga requer respostas a perguntas adicionais.")
             logging.info('Pulando vaga.')
             self.pular_modal_break_card_div_click(card_div, index)
+            global loop, paused, stop
+            while loop:
+                if paused:
+                    continue
+                if not paused:
+                    break
+                # if stop:
+                #     exit()
 
         # Registrando a aplicação no arquivo 'applied'
         if self.card_iv:
@@ -394,7 +407,30 @@ class InfoJobsScraper:
             logging.info(f'O elemento {value} não exite.')
             return False
 
+def toggle_pause():
+    global paused
+    paused = not paused
+    if paused:
+        print("Pausado")
+    else:
+        print("Continuando")
+
+def check_keys():
+    global loop, stop
+    keyboard.add_hotkey('p', toggle_pause)  # Toggle pause/play
+    keyboard.add_hotkey('s', stop_program)  # Stop the program
+
+    # Mantém a thread de escuta ativa
+    keyboard.wait('s')
+
+def stop_program():
+    global stop, loop
+    print("Parando")
+    stop = True
+    loop = False
+
 def main(driver_path, binary_location, email, password, page_link):
+    global loop, paused, stop
     driver_manager = WebDriverManager(driver_path)
     try:
         driver_manager.setup_driver(binary_location)
@@ -406,7 +442,9 @@ def main(driver_path, binary_location, email, password, page_link):
         login.login()
 
         scraper = InfoJobsScraper(driver_manager, page_link)
+        
         scraper.click_all_cards()
+
     finally:
         driver_manager.quit_driver()
 
@@ -418,4 +456,8 @@ if __name__ == "__main__":
     parser.add_argument('--password', required=True, help='Senha para login no InfoJobs')
     parser.add_argument('--page_link', required=True, help='Link da página de pesquisa com os cartões a enviar candidatura.')
     args = parser.parse_args()
+
+    # Inicia a thread para ouvir teclas de controle
+    threading.Thread(target=check_keys, daemon=True).start()
+
     main(args.driver_path, args.binary_location, args.email, args.password, args.page_link)
